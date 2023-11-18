@@ -71,13 +71,13 @@ const HomeLayout: FC<HomeLayoutProps> = ({}) => {
           <DynamicPepperMapView data={SanJose_Sample2 as MapData} />
         </Tab.Content>
         <Tab.Content value="school" style={{ height: '100%' }}>
-          <DynamicMapView data={SanJose_Sample_Empty as MapData} />
+          <DynamicMapView data={SanJose_Sample as MapData} />
         </Tab.Content>
         <Tab.Content value="office" style={{ height: '100%' }}>
-          <DynamicMapView data={SanJose_Sample_Empty as MapData} />
+          <DynamicMapView data={SanJose_Sample as MapData} />
         </Tab.Content>
         <Tab.Content value="kpop" style={{ height: '100%' }}>
-          <DynamicMapView data={SanJose_Sample_Empty as MapData} />
+          <DynamicMapView data={SanJose_Sample as MapData} />
         </Tab.Content>
       </main>
     </Tab.Root>

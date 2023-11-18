@@ -10,7 +10,7 @@ import UglyCircle from '@/Assets/uglyCircle.svg';
 mapboxgl.accessToken = process.env.NEXT_PUBLIC_TOKEN || ''; // Replace with your Mapbox access token
 export type MapData = {
   tags: Array<{ latitude: number; longitude: number; tag: string; votes: number }>;
-  area: Array<{ latitude: number; longitude: number; tag: string }>;
+  areas?: Array<{ latitude: number; longitude: number; tag: string }>;
 };
 type MapViewProps = {
   data: MapData;
@@ -25,8 +25,8 @@ const MapView: FC<MapViewProps> = ({ data }) => {
     const map = new mapboxgl.Map({
       container: mapContainerRef.current,
       style: 'mapbox://styles/mapbox/streets-v11',
-      center: [-121.9529723, 37.4836691],
-      zoom: 8.4,
+      center: [-121.9727064, 37.3524312],
+      zoom: 13.75,
     });
 
     const removeMarkers = () => {
@@ -64,14 +64,7 @@ const MapView: FC<MapViewProps> = ({ data }) => {
       }
     };
 
-    // const addCircles = (zoomLevel: number) => {
-    //   removeMarkers();
-
-    //   markersRef.current = data.tags;
-    // };
-
     map.on('zoom', () => addMarkers(map.getZoom()));
-    // map.on('zoom', () => add);
 
     addMarkers(map.getZoom()); // Initial marker setup
 
