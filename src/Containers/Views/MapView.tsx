@@ -7,41 +7,11 @@ import { createRoot } from 'react-dom/client';
 import { FeatureCollection, Polygon } from 'geojson';
 
 mapboxgl.accessToken = 'pk.eyJ1Ijoid2lsbGlhbTgwMTIiLCJhIjoiY2xwM3dqeGwxMTRtcjJpbWozYnNjMXZrYSJ9.Uwtluj_0DzSgfQ-ObQeAIw'; // Replace with your Mapbox access token
-type MapData = {
+export type MapData = {
   tags: Array<{ latitude: number; longitude: number; tag: string; votes: number }>;
-  oneDecimalLessAllUsersPaths: Array<{ latitude: string; longitude: string; category: string }>;
 };
 type MapViewProps = {
   data: MapData;
-};
-
-const createRectangleGeoJSON = (data: MapData['oneDecimalLessAllUsersPaths'] = []): FeatureCollection<Polygon> => {
-  const offset = 0.005; // Adjust this value for rectangle size
-  return {
-    type: 'FeatureCollection',
-    features: data.map((item) => {
-      const lat = parseFloat(item.latitude);
-      const lng = parseFloat(item.longitude);
-      return {
-        type: 'Feature',
-        properties: {
-          category: item.category,
-        },
-        geometry: {
-          type: 'Polygon',
-          coordinates: [
-            [
-              [lng - offset, lat - offset],
-              [lng + offset, lat - offset],
-              [lng + offset, lat + offset],
-              [lng - offset, lat + offset],
-              [lng - offset, lat - offset], // Close the polygon
-            ],
-          ],
-        },
-      };
-    }),
-  };
 };
 
 const MapView: FC<MapViewProps> = ({ data }) => {
@@ -92,36 +62,6 @@ const MapView: FC<MapViewProps> = ({ data }) => {
     };
 
     map.on('zoom', () => addMarkers(map.getZoom()));
-
-    map.on('load', () => {
-      // Create GeoJSON data for rectangles
-      const rectanglesGeoJSON = createRectangleGeoJSON(data.oneDecimalLessAllUsersPaths);
-
-      // Add rectangles as a new layer
-      map.addLayer({
-        id: 'rectangles',
-        type: 'fill',
-        source: {
-          type: 'geojson',
-          data: rectanglesGeoJSON,
-        },
-        layout: {},
-        paint: {
-          'fill-color': [
-            'match',
-            ['get', 'category'],
-            'rich',
-            '#00ff00', // Red for 'rich'
-            'suits',
-            '#0000ff', // Blue for 'suits'
-            'normies',
-            '#cccccc', // Green for 'normies'
-            '#000', // Default color
-          ],
-          'fill-opacity': 0.01,
-        },
-      });
-    });
 
     addMarkers(map.getZoom()); // Initial marker setup
 

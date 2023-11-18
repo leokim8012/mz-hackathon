@@ -7,6 +7,7 @@ import { FC } from 'react';
 import styles from './HomeLayout.module.scss';
 import { Icon } from '@woozdesign/icons';
 import Pepper from '@/Assets/pepper.svg';
+import { MapData } from '../Views/MapView';
 
 interface HomeLayoutProps {}
 
@@ -44,7 +45,7 @@ const HomeLayout: FC<HomeLayoutProps> = ({}) => {
           <TextField iconPrepend={<Icon type={'Search'} />} variant={'solid'} shadow="4" size={'xlarge'} placeholder={'San Jose'} block />
         </Flex>
       </div>
-      <DynamicMapView data={SanJose_Sample} />
+      <DynamicMapView data={SanJose_Sample as MapData} />
     </main>
   );
 };
