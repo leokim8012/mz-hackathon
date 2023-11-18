@@ -5,10 +5,12 @@ import { FC, useEffect, useRef, useState } from 'react';
 import ReactDOM from 'react-dom';
 import { createRoot } from 'react-dom/client';
 import { FeatureCollection, Polygon } from 'geojson';
+import UglyCircle from '@/Assets/uglyCircle.svg';
 
 mapboxgl.accessToken = 'pk.eyJ1Ijoid2lsbGlhbTgwMTIiLCJhIjoiY2xwM3dqeGwxMTRtcjJpbWozYnNjMXZrYSJ9.Uwtluj_0DzSgfQ-ObQeAIw'; // Replace with your Mapbox access token
 export type MapData = {
   tags: Array<{ latitude: number; longitude: number; tag: string; votes: number }>;
+  area: Array<{ latitude: number; longitude: number; tag: string }>;
 };
 type MapViewProps = {
   data: MapData;
@@ -23,8 +25,8 @@ const MapView: FC<MapViewProps> = ({ data }) => {
     const map = new mapboxgl.Map({
       container: mapContainerRef.current,
       style: 'mapbox://styles/mapbox/streets-v11',
-      center: [-121.9529723, 37.3536691],
-      zoom: 13,
+      center: [-121.9529723, 37.4836691],
+      zoom: 8.4,
     });
 
     const removeMarkers = () => {
@@ -41,7 +43,7 @@ const MapView: FC<MapViewProps> = ({ data }) => {
         .map((tag) => {
           const markerDiv = document.createElement('div');
           const root = createRoot(markerDiv); // Use createRoot here
-          root.render(<MapText key={tag.tag} text={tag.tag} votes={tag.votes} randomRotation={true} />);
+          root.render(<MapText key={tag.tag} text={tag.tag} votes={tag.votes} randomRotation={false} />);
           return new mapboxgl.Marker(markerDiv).setLngLat([tag.longitude, tag.latitude]).addTo(map);
         });
     };
@@ -62,7 +64,14 @@ const MapView: FC<MapViewProps> = ({ data }) => {
       }
     };
 
+    // const addCircles = (zoomLevel: number) => {
+    //   removeMarkers();
+
+    //   markersRef.current = data.tags;
+    // };
+
     map.on('zoom', () => addMarkers(map.getZoom()));
+    // map.on('zoom', () => add);
 
     addMarkers(map.getZoom()); // Initial marker setup
 

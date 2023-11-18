@@ -114,7 +114,7 @@ export const SanJose_Sample = {
       longitude: -121.89133002391,
       uid: 'n_a1ff40d811a221791d19447c34bea720_37.339003484155_-121.89133002391',
       votes: 23,
-      tag: 'This is not a park to have a picnic at',
+      tag: '피크닉 하는 공원 아님',
     },
     {
       epoch: 1644459486959,
@@ -417,7 +417,7 @@ export const SanJose_Sample = {
       latitude: 37.433876583575,
       longitude: -121.94535859171,
       uid: 'n_5000d88e4ec021b669218d90f1dc81ea_37.433876583575_-121.94535859171',
-      votes: 48,
+      votes: 5,
       tag: 'Source of Smell',
     },
     {
@@ -425,7 +425,7 @@ export const SanJose_Sample = {
       latitude: 37.257382640538,
       longitude: -121.82558550572,
       uid: 'n_20eac7c114440e5c71ab09306b499e8c_37.257382640538_-121.82558550572',
-      votes: 30,
+      votes: 20,
       tag: 'Gunshots nightly',
     },
     {
@@ -434,7 +434,7 @@ export const SanJose_Sample = {
       longitude: -121.82147792797,
       uid: 'n_f70eb16274266c44f0e036269ec17890_37.286014916121_-121.82147792797',
       votes: 29,
-      tag: "If u don't know anyone don't come here",
+      tag: '여기 아는 사람 있는거 아니면 오지 마세요,,,',
     },
     {
       epoch: 1606552750312,
@@ -461,14 +461,6 @@ export const SanJose_Sample = {
       tag: 'Milstanky',
     },
     {
-      epoch: 1617301329970,
-      latitude: 37.345684100733,
-      longitude: -121.84886527967,
-      uid: 'n_732633eccdc9111c3bf685ebaa60fc69_37.345684100733_-121.84886527967',
-      votes: 24,
-      tag: 'r/idiotsincars',
-    },
-    {
       epoch: 1536457347831,
       latitude: 37.531632429937,
       longitude: -122.00663768874,
@@ -477,20 +469,12 @@ export const SanJose_Sample = {
       tag: 'Indians in Camrys',
     },
     {
-      epoch: 1645142531735,
-      latitude: 37.339003484155,
-      longitude: -121.89133002391,
-      uid: 'n_a1ff40d811a221791d19447c34bea720_37.339003484155_-121.89133002391',
-      votes: 23,
-      tag: 'This is not a park to have a picnic at',
-    },
-    {
       epoch: 1605541528967,
       latitude: 37.367845831899,
       longitude: -121.93175334651,
       uid: 'n_f084ddabaef7bd308b80565e9d7cf1e4_37.367845831899_-121.93175334651',
       votes: 22,
-      tag: 'Way more chill than SFO',
+      tag: '솔직히 샌프란 공항보다 나음ㅋ',
     },
     {
       epoch: 1499237017428,
@@ -517,28 +501,12 @@ export const SanJose_Sample = {
       tag: 'overbearing parents',
     },
     {
-      epoch: 1533672572359,
-      latitude: 37.337136054996,
-      longitude: -121.87817145827,
-      uid: 'n_a37f3d7db553b1f73e343490840f9508_37.337136054996_-121.87817145827',
-      votes: 17,
-      tag: 'Puking frat boys',
-    },
-    {
       epoch: 1611200017480,
       latitude: 37.325517356362,
       longitude: -121.98931917108,
       uid: 'n_226f64ec7ce8f4abb5a4ea1674961df9_37.325517356362_-121.98931917108',
       votes: 15,
       tag: 'Car Dealerships',
-    },
-    {
-      epoch: 1585944793574,
-      latitude: 37.333744363082,
-      longitude: -121.90609323522,
-      uid: 'n_19a2ea02fd073cde12cae48151b92ba6_37.333744363082_-121.90609323522',
-      votes: 15,
-      tag: 'Shark Tank',
     },
     {
       epoch: 1586710418896,
@@ -554,7 +522,7 @@ export const SanJose_Sample = {
       longitude: -121.85868453436,
       uid: 'n_7eae78ee73359ca0eae66362ff3e5947_37.331639191417_-121.85868453436',
       votes: 15,
-      tag: 'Viet-Noms',
+      tag: '베트남인들 많이 사는데',
     },
     {
       epoch: 1529161775423,
@@ -562,7 +530,7 @@ export const SanJose_Sample = {
       longitude: -122.0356211142,
       uid: 'n_d4c32386ac787d07fa9e61e3e8dc5b6e_37.367489883528_-122.0356211142',
       votes: 13,
-      tag: 'more good food than you think',
+      tag: '여기 맛집 많음ㅇㅇ',
     },
     {
       epoch: 1597515509909,
@@ -2371,6 +2339,13 @@ export const SanJose_Sample = {
       uid: 'n_6b35d163a86d970d44b4921b4cadb785_37.431979615893_-122.06771004984',
       votes: -1,
       tag: 'Rich People Sex Dungeon',
+    },
+  ],
+  area: [
+    {
+      latitude: 37.7576713,
+      longitude: -122.5200009,
+      tag: 'San Fransisco',
     },
   ],
 };

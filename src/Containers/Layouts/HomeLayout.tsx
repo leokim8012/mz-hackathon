@@ -1,5 +1,6 @@
 'use client';
 import { SanJose_Sample, SanJose_Sample2 } from '@/utils/data/sampleData';
+import { Area_Data } from '@/utils/data/areaData';
 import { Button, Card, Flex, Tab, TextField } from '@woozdesign/ui';
 import dynamic from 'next/dynamic';
 import { FC } from 'react';
@@ -41,7 +42,7 @@ const HomeLayout: FC<HomeLayoutProps> = ({}) => {
                 <Tab.Trigger value="kpop">🌟 k-pop</Tab.Trigger>
               </Tab.List>
             </Flex>
-            <TextField iconPrepend={<Icon type={'Search'} />} variant={'solid'} shadow="4" size={'xlarge'} placeholder={'San Jose'} block />
+            <TextField iconPrepend={'🔍'} variant={'solid'} shadow="4" size={'xlarge'} placeholder={'San Jose'} radius={'full'} block />
           </Flex>
         </div>
         <Tab.Content value="comments" style={{ height: '100%' }}>
