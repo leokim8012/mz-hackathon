@@ -21,14 +21,18 @@ const MapText: FC<MapTextProps> = ({ text, votes = 0, randomRotation = false }) 
 
   const style = {
     fontSize: `min(calc(var(--font-size-4) + ${votes}px), var(--font-size-12))`,
+  };
+  const wrapperStyle = {
     transform: `translate(-50%, -50%) rotate(${rotation}deg) `,
   };
 
   return (
     <div className={styles.container}>
-      <span className={styles.map_text} style={style}>
-        {text}
-      </span>
+      <div style={wrapperStyle}>
+        <span className={styles.map_text} style={style}>
+          {text}
+        </span>
+      </div>
       <div className={styles.rate}>
         <Flex>
           <IconButton highContrast>
