@@ -7,7 +7,7 @@ import { createRoot } from 'react-dom/client';
 import { FeatureCollection, Polygon } from 'geojson';
 import { MapData } from './MapView';
 
-mapboxgl.accessToken = process.env.NEXT_PUBLIC_TOKEN;
+mapboxgl.accessToken = process.env.NEXT_PUBLIC_TOKEN || '';
 export type PepperMapData = {
   tags: Array<{ latitude: number; longitude: number; tag: string; votes: number }>;
 };
