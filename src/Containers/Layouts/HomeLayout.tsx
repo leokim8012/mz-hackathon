@@ -31,7 +31,7 @@ const HomeLayout: FC<HomeLayoutProps> = ({}) => {
           </IconButton>
         </AppBar.Action>
       </AppBar> */}
-      <DynamicMapView position={position} bounds={bounds} data={SanJose_Sample} />
+      <DynamicMapView center={position} data={SanJose_Sample} />
     </main>
   );
 };

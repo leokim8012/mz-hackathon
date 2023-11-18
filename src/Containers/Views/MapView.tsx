@@ -1,37 +1,33 @@
-import React from 'react';
-import { MapContainer, TileLayer, SVGOverlay, useMap } from 'react-leaflet';
-import L from 'leaflet';
-import 'leaflet/dist/leaflet.css';
+import React, { useEffect, useRef } from 'react';
+import mapboxgl from 'mapbox-gl';
+import 'mapbox-gl/dist/mapbox-gl.css';
 
-type MapViewProps = {
-  position: L.LatLngExpression;
-  bounds: L.LatLngBoundsExpression;
-  data: { tags: Array<{ latitude: number; longitude: number; tag: string }> };
-};
+mapboxgl.accessToken = 'pk.eyJ1Ijoid2lsbGlhbTgwMTIiLCJhIjoiY2xwM3dqeGwxMTRtcjJpbWozYnNjMXZrYSJ9.Uwtluj_0DzSgfQ-ObQeAIw'; // Replace with your Mapbox access token
 
-const MapView: React.FC<MapViewProps> = ({ data, position, bounds }) => {
-  const map = useMap();
+const MapView = ({ data, center }) => {
+  const mapContainerRef = useRef(null);
 
-  const convertLatLngToLayerPoint = (latLng) => {
-    return map.latLngToLayerPoint(latLng);
-  };
+  useEffect(() => {
+    const map = new mapboxgl.Map({
+      container: mapContainerRef.current,
+      style: 'mapbox://styles/mapbox/streets-v11', // Mapbox style URL
+      center: [-121.8863286, 37.3382082], // Initial map center coordinates
+      zoom: 13,
+    });
 
-  return (
-    <MapContainer center={position} zoom={13} scrollWheelZoom={false} style={{ height: '100%', width: '100%' }}>
-      <TileLayer attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors' url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+    data.tags.forEach((tag) => {
+      const el = document.createElement('div');
+      el.className = 'marker';
+      el.style.color = 'blue'; // Text color
+      el.innerText = tag.tag; // Text to display
 
-      <SVGOverlay attributes={{ stroke: 'red' }} bounds={bounds}>
-        {data.tags.map((tag, index) => {
-          const point = convertLatLngToLayerPoint(new L.LatLng(tag.latitude, tag.longitude));
-          return (
-            <text key={index} x={point.x} y={point.y} stroke="white" textAnchor="middle">
-              {tag.tag}
-            </text>
-          );
-        })}
-      </SVGOverlay>
-    </MapContainer>
-  );
+      new mapboxgl.Marker(el).setLngLat([tag.longitude, tag.latitude]).addTo(map);
+    });
+
+    return () => map.remove();
+  }, [data]);
+
+  return <div ref={mapContainerRef} style={{ height: '100%', width: '100%' }} />;
 };
 
 export default MapView;

@@ -9,18 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@react-leaflet/core": "^2.1.0",
     "@woozdesign/icons": "^1.1.0",
     "@woozdesign/ui": "^1.1.12-alpha.0",
     "classnames": "^2.3.2",
-    "leaflet": "^1.9.4",
+    "mapbox-gl": "^2.15.0",
     "next": "14.0.3",
     "react": "^18",
-    "react-dom": "^18",
-    "react-leaflet": "^4.2.1"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "@types/leaflet": "^1.9.8",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
