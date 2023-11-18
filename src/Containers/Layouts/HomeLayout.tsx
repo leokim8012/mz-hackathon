@@ -36,9 +36,9 @@ const HomeLayout: FC<HomeLayoutProps> = ({}) => {
               <Tab.List variant={'ios'} highContrast>
                 <Tab.Trigger value="comments">💬 Comment</Tab.Trigger>
                 <Tab.Trigger value="pepper">🌶️ Pepper</Tab.Trigger>
-                <Tab.Trigger value="pepper">🎓 School</Tab.Trigger>
-                <Tab.Trigger value="pepper">👔 Office</Tab.Trigger>
-                <Tab.Trigger value="pepper">🥩 Food</Tab.Trigger>
+                <Tab.Trigger value="school">🎓 School</Tab.Trigger>
+                <Tab.Trigger value="office">👔 Office</Tab.Trigger>
+                <Tab.Trigger value="food">🥩 Food</Tab.Trigger>
               </Tab.List>
             </Tab.Root>
           </Flex>
