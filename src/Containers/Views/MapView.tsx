@@ -15,8 +15,8 @@ type MapViewProps = {
   data: MapData;
 };
 
-const createRectangleGeoJSON = (data: MapData['oneDecimalLessAllUsersPaths']): FeatureCollection<Polygon> => {
-  const offset = 0.0025; // Adjust this value for rectangle size
+const createRectangleGeoJSON = (data: MapData['oneDecimalLessAllUsersPaths'] = []): FeatureCollection<Polygon> => {
+  const offset = 0.005; // Adjust this value for rectangle size
   return {
     type: 'FeatureCollection',
     features: data.map((item) => {
