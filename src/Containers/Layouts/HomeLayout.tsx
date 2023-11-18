@@ -43,7 +43,7 @@ const HomeLayout: FC<HomeLayoutProps> = ({}) => {
         <div className={styles.panel}>
           <Flex direction={'column'}>
             <Flex space="2" width={'100%'} justify={'center'}>
-              <Tab.List variant={'ios'} highContrast>
+              <Tab.List className={styles.tab} variant={'ios'} highContrast>
                 <Tab.Trigger onClick={handleCommentClick} value="comments">
                   💬 Comment
                 </Tab.Trigger>
@@ -55,6 +55,17 @@ const HomeLayout: FC<HomeLayoutProps> = ({}) => {
                 </Tab.Trigger>
                 <Tab.Trigger onClick={handleCommentClick} value="office">
                   👔 Office
+                </Tab.Trigger>
+                <Tab.Trigger onClick={handleCommentClick} value="kpop">
+                  🌟 k-pop
+                </Tab.Trigger>
+              </Tab.List>
+              <Tab.List className={styles.tab_mobile} variant={'ios'} highContrast>
+                <Tab.Trigger onClick={handleCommentClick} value="comments">
+                  💬 Comment
+                </Tab.Trigger>
+                <Tab.Trigger onClick={handlePepperClick} value="pepper">
+                  🌶️ Pepper
                 </Tab.Trigger>
                 <Tab.Trigger onClick={handleCommentClick} value="kpop">
                   🌟 k-pop

@@ -11,3 +11,21 @@
     background: var(--color-accent-1);
   }
 }
+
+@media (min-width: 0px) {
+  .tab {
+    display: none;
+  }
+  .tab_mobile {
+    display: flex;
+  }
+}
+
+@media (min-width: 992px) {
+  .tab {
+    display: flex;
+  }
+  .tab_mobile {
+    display: none;
+  }
+}
