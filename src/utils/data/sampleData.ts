@@ -2341,7 +2341,7 @@ export const SanJose_Sample = {
       tag: 'Rich People Sex Dungeon',
     },
   ],
-  area: [
+  areas: [
     {
       latitude: 37.7576713,
       longitude: -122.5200009,

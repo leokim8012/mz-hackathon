@@ -10,7 +10,7 @@ import UglyCircle from '@/Assets/uglyCircle.svg';
 mapboxgl.accessToken = 'pk.eyJ1Ijoid2lsbGlhbTgwMTIiLCJhIjoiY2xwM3dqeGwxMTRtcjJpbWozYnNjMXZrYSJ9.Uwtluj_0DzSgfQ-ObQeAIw'; // Replace with your Mapbox access token
 export type MapData = {
   tags: Array<{ latitude: number; longitude: number; tag: string; votes: number }>;
-  area: Array<{ latitude: number; longitude: number; tag: string }>;
+  areas?: Array<{ latitude: number; longitude: number; tag: string }>;
 };
 type MapViewProps = {
   data: MapData;
@@ -64,16 +64,22 @@ const MapView: FC<MapViewProps> = ({ data }) => {
       }
     };
 
-    // const addCircles = (zoomLevel: number) => {
-    //   removeMarkers();
+    const addCircles = () => {
+      removeMarkers();
 
-    //   markersRef.current = data.tags;
-    // };
+      markersRef.current = data.areas!.map((area) => {
+        const markerDiv = document.createElement('div');
+        const root = createRoot(markerDiv); // Use createRoot here
+        root.render(<UglyCircle key={area.tag} title={area.tag} stroke="#D5F5E3" />);
+        return new mapboxgl.Marker(markerDiv).setLngLat([area.longitude, area.latitude]).addTo(map);
+      });
+    };
 
     map.on('zoom', () => addMarkers(map.getZoom()));
-    // map.on('zoom', () => add);
+    map.on('zoom', () => addCircles());
 
     addMarkers(map.getZoom()); // Initial marker setup
+    addCircles(); // Initial marker setup
 
     return () => {
       map.remove();
