@@ -1,7 +1,6 @@
 'use client';
-import { SanJose_Sample, SanJose_Sample2 } from '@/utils/data/sampleData';
-import { Area_Data } from '@/utils/data/areaData';
-import { Button, Card, Flex, Tab, TextField } from '@woozdesign/ui';
+import { SanJose_Sample, SanJose_Sample2, SanJose_Sample_Empty } from '@/utils/data/sampleData';
+import { Button, Card, Flex, Tab, TextField, useThemeContext } from '@woozdesign/ui';
 import dynamic from 'next/dynamic';
 import { FC } from 'react';
 
@@ -14,8 +13,18 @@ interface HomeLayoutProps {}
 
 // Dynamically import the MapView component with SSR disabled
 const DynamicMapView = dynamic(() => import('../Views/MapView'), { ssr: false });
+// Dynamically import the MapView component with SSR disabled
+const DynamicPepperMapView = dynamic(() => import('../Views/PepperMapView'), { ssr: false });
 
 const HomeLayout: FC<HomeLayoutProps> = ({}) => {
+  const { onAccentColorChange } = useThemeContext();
+  const handlePepperClick = () => {
+    onAccentColorChange('red');
+  };
+
+  const handleCommentClick = () => {
+    onAccentColorChange('gray');
+  };
   return (
     <Tab.Root defaultValue={'comments'}>
       <main style={{ height: '100vh' }}>
@@ -35,11 +44,21 @@ const HomeLayout: FC<HomeLayoutProps> = ({}) => {
           <Flex direction={'column'}>
             <Flex space="2" width={'100%'} justify={'center'}>
               <Tab.List variant={'ios'} highContrast>
-                <Tab.Trigger value="comments">💬 Comment</Tab.Trigger>
-                <Tab.Trigger value="pepper">🌶️ Pepper</Tab.Trigger>
-                <Tab.Trigger value="school">🎓 School</Tab.Trigger>
-                <Tab.Trigger value="office">👔 Office</Tab.Trigger>
-                <Tab.Trigger value="kpop">🌟 k-pop</Tab.Trigger>
+                <Tab.Trigger onClick={handleCommentClick} value="comments">
+                  💬 Comment
+                </Tab.Trigger>
+                <Tab.Trigger onClick={handlePepperClick} value="pepper">
+                  🌶️ Pepper
+                </Tab.Trigger>
+                <Tab.Trigger onClick={handleCommentClick} value="school">
+                  🎓 School
+                </Tab.Trigger>
+                <Tab.Trigger onClick={handleCommentClick} value="office">
+                  👔 Office
+                </Tab.Trigger>
+                <Tab.Trigger onClick={handleCommentClick} value="kpop">
+                  🌟 k-pop
+                </Tab.Trigger>
               </Tab.List>
             </Flex>
             <TextField iconPrepend={'🔍'} variant={'solid'} shadow="4" size={'xlarge'} placeholder={'San Jose'} radius={'full'} block />
@@ -49,16 +68,16 @@ const HomeLayout: FC<HomeLayoutProps> = ({}) => {
           <DynamicMapView data={SanJose_Sample as MapData} />
         </Tab.Content>
         <Tab.Content value="pepper" style={{ height: '100%' }}>
-          <DynamicMapView data={SanJose_Sample2 as MapData} />
+          <DynamicPepperMapView data={SanJose_Sample_Empty as MapData} />
         </Tab.Content>
         <Tab.Content value="school" style={{ height: '100%' }}>
-          <DynamicMapView data={SanJose_Sample2 as MapData} />
+          <DynamicMapView data={SanJose_Sample_Empty as MapData} />
         </Tab.Content>
         <Tab.Content value="office" style={{ height: '100%' }}>
-          <DynamicMapView data={SanJose_Sample2 as MapData} />
+          <DynamicMapView data={SanJose_Sample_Empty as MapData} />
         </Tab.Content>
         <Tab.Content value="kpop" style={{ height: '100%' }}>
-          <DynamicMapView data={SanJose_Sample2 as MapData} />
+          <DynamicMapView data={SanJose_Sample_Empty as MapData} />
         </Tab.Content>
       </main>
     </Tab.Root>
