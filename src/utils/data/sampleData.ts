@@ -6,6 +6,14 @@ export const SanJose_Sample = {
   tags: [
     {
       epoch: 1646568541855,
+      latitude: 37.3536691,
+      longitude: -121.9504723,
+      uid: 'n_9386dd4asdf1m1k2fde2f413300_37.338739876572_-121.97333013891',
+      votes: 99,
+      tag: 'SVKoreans HQ',
+    },
+    {
+      epoch: 1646568541855,
       latitude: 37.338739876572,
       longitude: -121.97333013891,
       uid: 'n_9386dd4a1ba010a9cd04bfde2f413300_37.338739876572_-121.97333013891',

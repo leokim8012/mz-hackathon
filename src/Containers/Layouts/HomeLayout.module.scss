@@ -1,8 +1,9 @@
 .leftPanel {
   position: absolute;
   left: var(--space-4);
+  right: var(--space-4);
   top: var(--space-4);
-  width: 480px;
+  max-width: 480px;
   z-index: 99;
 
   input {

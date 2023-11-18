@@ -1,8 +1,9 @@
 import MapText from '@/Components/Map/MapText/MapText';
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
-import { FC, useEffect, useRef } from 'react';
+import { FC, useEffect, useRef, useState } from 'react';
 import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 
 mapboxgl.accessToken = 'pk.eyJ1Ijoid2lsbGlhbTgwMTIiLCJhIjoiY2xwM3dqeGwxMTRtcjJpbWozYnNjMXZrYSJ9.Uwtluj_0DzSgfQ-ObQeAIw'; // Replace with your Mapbox access token
 
@@ -12,26 +13,57 @@ type MapViewProps = {
 
 const MapView: FC<MapViewProps> = ({ data }) => {
   const mapContainerRef = useRef(null);
+  const markersRef = useRef([]);
 
   useEffect(() => {
     const map = new mapboxgl.Map({
       container: mapContainerRef.current,
-      style: 'mapbox://styles/mapbox/streets-v11', // Mapbox style URL
-      center: [-121.8863286, 37.3382082], // Initial map center coordinates
+      style: 'mapbox://styles/mapbox/streets-v11',
+      center: [-121.9529723, 37.3536691],
       zoom: 13,
     });
 
-    const result = data.tags.filter((thing, index, self) => index === self.findIndex((t) => t.tag == thing.tag));
+    const removeMarkers = () => {
+      markersRef.current.forEach((marker) => marker.remove());
+      markersRef.current = [];
+    };
 
-    result.forEach((tag) => {
-      const markerDiv = document.createElement('div');
+    const addMarkers = (zoomLevel) => {
+      removeMarkers();
 
-      ReactDOM.render(<MapText key={tag.tag} text={tag.tag} votes={tag.votes} randomRotation={true} />, markerDiv);
+      markersRef.current = data.tags
+        .filter((tag) => tag.votes >= calculateVoteThreshold(zoomLevel))
+        .map((tag) => {
+          const markerDiv = document.createElement('div');
+          const root = createRoot(markerDiv); // Use createRoot here
+          root.render(<MapText key={tag.tag} text={tag.tag} votes={tag.votes} randomRotation={true} />);
+          return new mapboxgl.Marker(markerDiv).setLngLat([tag.longitude, tag.latitude]).addTo(map);
+        });
+    };
 
-      new mapboxgl.Marker(markerDiv).setLngLat([tag.longitude, tag.latitude]).addTo(map);
-    });
+    const calculateVoteThreshold = (zoomLevel) => {
+      // Define the logic to determine the vote threshold based on zoom level
 
-    return () => map.remove();
+      if (zoomLevel > 12.5) {
+        return 0;
+      } else if (zoomLevel > 12) {
+        return 5;
+      } else if (zoomLevel > 11.5) {
+        return 10;
+      } else if (zoomLevel > 11) {
+        return 15;
+      } else {
+        return 30;
+      }
+    };
+
+    map.on('zoom', () => addMarkers(map.getZoom()));
+    addMarkers(map.getZoom()); // Initial marker setup
+
+    return () => {
+      map.remove();
+      removeMarkers();
+    };
   }, [data]);
 
   return <div ref={mapContainerRef} style={{ height: '100%', width: '100%' }} />;

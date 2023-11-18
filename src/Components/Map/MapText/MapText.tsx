@@ -18,8 +18,8 @@ const MapText: FC<MapTextProps> = ({ text, votes = 0, randomRotation = false }) 
   }, [randomRotation]);
 
   const style = {
-    fontSize: `calc(var(--font-size-4) + ${votes}px)`,
-    transform: `rotate(${rotation}deg)`,
+    fontSize: `min(calc(var(--font-size-4) + ${votes}px), var(--font-size-12))`,
+    transform: `translate(-50%, -50%) rotate(${rotation}deg) `,
   };
 
   return (
