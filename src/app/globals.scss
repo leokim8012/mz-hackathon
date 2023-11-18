@@ -1,0 +1,34 @@
+@import '@woozdesign/ui/styles.css';
+@import '@woozdesign/icons/dist/styles.css';
+
+html {
+}
+
+// code[class*='language-'],
+// pre[class*='language-'] {
+//   font-family: 'Inter' !important;
+//   font-size: var(--font-size-3);
+//   line-height: 1.5;
+//   word-spacing: normal;
+//   background-color: transparent !important;
+//   /* …… */
+// }
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+pre {
+  margin: 0;
+  font-family: unset;
+}
+
+img {
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
