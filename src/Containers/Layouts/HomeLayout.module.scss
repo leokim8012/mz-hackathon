@@ -1,9 +1,10 @@
-.leftPanel {
+.panel {
   position: absolute;
   left: var(--space-4);
   right: var(--space-4);
-  top: var(--space-4);
+  bottom: var(--space-4);
   max-width: 480px;
+  margin: auto;
   z-index: 99;
 
   input {

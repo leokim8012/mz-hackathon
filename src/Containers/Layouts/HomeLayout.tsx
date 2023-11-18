@@ -1,10 +1,12 @@
 'use client';
 import { SanJose_Sample } from '@/utils/data/sampleData';
-import { Flex, TextField } from '@woozdesign/ui';
+import { Button, Card, Flex, Tab, TextField } from '@woozdesign/ui';
 import dynamic from 'next/dynamic';
 import { FC } from 'react';
 
 import styles from './HomeLayout.module.scss';
+import { Icon } from '@woozdesign/icons';
+import Pepper from '@/Assets/pepper.svg';
 
 interface HomeLayoutProps {}
 
@@ -26,13 +28,20 @@ const HomeLayout: FC<HomeLayoutProps> = ({}) => {
         </AppBar.Action>
       </AppBar> */}
 
-      <div className={styles.leftPanel}>
+      <div className={styles.panel}>
         <Flex direction={'column'}>
-          <TextField shadow="4" size={'xlarge'} placeholder={'San Jose'} block />
-          {/* <Flex space="2">
-            <Button highContrast>Tags</Button>
-            <Button highContrast>Pepper</Button>
-          </Flex> */}
+          <Flex space="2" width={'100%'} justify={'center'}>
+            <Tab.Root defaultValue={'comments'}>
+              <Tab.List variant={'ios'} highContrast>
+                <Tab.Trigger value="comments">💬 Comment</Tab.Trigger>
+                <Tab.Trigger value="pepper">🌶️ Pepper</Tab.Trigger>
+                <Tab.Trigger value="pepper">🎓 School</Tab.Trigger>
+                <Tab.Trigger value="pepper">👔 Office</Tab.Trigger>
+                <Tab.Trigger value="pepper">🥩 Food</Tab.Trigger>
+              </Tab.List>
+            </Tab.Root>
+          </Flex>
+          <TextField iconPrepend={<Icon type={'Search'} />} variant={'solid'} shadow="4" size={'xlarge'} placeholder={'San Jose'} block />
         </Flex>
       </div>
       <DynamicMapView data={SanJose_Sample} />
