@@ -38,7 +38,7 @@ const HomeLayout: FC<HomeLayoutProps> = ({}) => {
                 <Tab.Trigger value="pepper">🌶️ Pepper</Tab.Trigger>
                 <Tab.Trigger value="school">🎓 School</Tab.Trigger>
                 <Tab.Trigger value="office">👔 Office</Tab.Trigger>
-                <Tab.Trigger value="food">🥩 Food</Tab.Trigger>
+                <Tab.Trigger value="kpop">🌟 k-pop</Tab.Trigger>
               </Tab.List>
             </Flex>
             <TextField iconPrepend={<Icon type={'Search'} />} variant={'solid'} shadow="4" size={'xlarge'} placeholder={'San Jose'} block />
@@ -48,6 +48,15 @@ const HomeLayout: FC<HomeLayoutProps> = ({}) => {
           <DynamicMapView data={SanJose_Sample as MapData} />
         </Tab.Content>
         <Tab.Content value="pepper" style={{ height: '100%' }}>
+          <DynamicMapView data={SanJose_Sample2 as MapData} />
+        </Tab.Content>
+        <Tab.Content value="school" style={{ height: '100%' }}>
+          <DynamicMapView data={SanJose_Sample2 as MapData} />
+        </Tab.Content>
+        <Tab.Content value="office" style={{ height: '100%' }}>
+          <DynamicMapView data={SanJose_Sample2 as MapData} />
+        </Tab.Content>
+        <Tab.Content value="kpop" style={{ height: '100%' }}>
           <DynamicMapView data={SanJose_Sample2 as MapData} />
         </Tab.Content>
       </main>
