@@ -25,8 +25,8 @@ const MapView: FC<MapViewProps> = ({ data }) => {
     const map = new mapboxgl.Map({
       container: mapContainerRef.current,
       style: 'mapbox://styles/mapbox/streets-v11',
-      center: [-121.9529723, 37.4836691],
-      zoom: 8.4,
+      center: [-121.9727064, 37.3524312],
+      zoom: 13.75,
     });
 
     const removeMarkers = () => {
@@ -64,22 +64,9 @@ const MapView: FC<MapViewProps> = ({ data }) => {
       }
     };
 
-    const addCircles = () => {
-      removeMarkers();
-
-      markersRef.current = data.areas!.map((area) => {
-        const markerDiv = document.createElement('div');
-        const root = createRoot(markerDiv); // Use createRoot here
-        root.render(<UglyCircle key={area.tag} title={area.tag} stroke="#D5F5E3" />);
-        return new mapboxgl.Marker(markerDiv).setLngLat([area.longitude, area.latitude]).addTo(map);
-      });
-    };
-
     map.on('zoom', () => addMarkers(map.getZoom()));
-    map.on('zoom', () => addCircles());
 
     addMarkers(map.getZoom()); // Initial marker setup
-    addCircles(); // Initial marker setup
 
     return () => {
       map.remove();
