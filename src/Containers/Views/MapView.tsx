@@ -37,6 +37,7 @@ const MapView: FC<MapViewProps> = ({ data }) => {
 
       markersRef.current = data.tags
         .filter((tag) => tag.votes >= calculateVoteThreshold(zoomLevel))
+        .filter((thing, index, self) => index === self.findIndex((t) => t.tag == thing.tag))
         .map((tag) => {
           const markerDiv = document.createElement('div');
           const root = createRoot(markerDiv); // Use createRoot here
