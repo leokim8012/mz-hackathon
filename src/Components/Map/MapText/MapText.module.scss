@@ -1,4 +1,7 @@
 .map_text {
-  font-size: var(--font-size-4);
+  position: absolute;
+  color: var(--color-gray-1);
+  line-height: 1;
   font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
+  text-shadow: 1px 1px 0 #454545, 1px 2px 0 #454545, 3px 3px 0 #454545, -1px -1px 0 #454545, 1px -1px 0 #454545, -1px 1px 0 #454545, 0 1px 0 #454545;
 }

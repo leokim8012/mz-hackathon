@@ -1,10 +1,12 @@
 'use client';
 import { Icon } from '@woozdesign/icons';
-import { AppBar, Card, Col, Container, IconButton, Layout, Menu, Row } from '@woozdesign/ui';
+import { AppBar, Button, Card, Col, Container, Flex, IconButton, Layout, Menu, Row, TextField } from '@woozdesign/ui';
 import React, { FC } from 'react';
 import D3Layout from './Graph/D3Layout';
 import dynamic from 'next/dynamic';
 import { SanJose_Sample } from '@/utils/data/sampleData';
+
+import styles from './HomeLayout.module.scss';
 
 interface HomeLayoutProps {}
 
@@ -31,7 +33,17 @@ const HomeLayout: FC<HomeLayoutProps> = ({}) => {
           </IconButton>
         </AppBar.Action>
       </AppBar> */}
-      <DynamicMapView center={position} data={SanJose_Sample} />
+
+      <div className={styles.leftPanel}>
+        <Flex direction={'column'}>
+          <TextField shadow="4" size={'xlarge'} placeholder={'San Jose'} block />
+          {/* <Flex space="2">
+            <Button highContrast>Tags</Button>
+            <Button highContrast>Pepper</Button>
+          </Flex> */}
+        </Flex>
+      </div>
+      <DynamicMapView data={SanJose_Sample} />
     </main>
   );
 };

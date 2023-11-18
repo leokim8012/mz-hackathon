@@ -7,7 +7,7 @@ import React from 'react';
 
 export const RootStyleRegistry = ({ children }: React.PropsWithChildren) => {
   return (
-    <ThemeProvider appearance={'light'} accentColor={'gray'} translucent={'60%'} radius={'small'} scaling={'100%'}>
+    <ThemeProvider appearance={'light'} accentColor={'gray'} translucent={'60%'} radius={'large'} scaling={'100%'}>
       {children}
     </ThemeProvider>
   );
