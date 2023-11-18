@@ -2373,6 +2373,13 @@ export const SanJose_Sample2 = {
       tag: 'Red Hot Wok',
     },
   ],
+  area: [
+    {
+      latitude: 37.7576713,
+      longitude: -122.5200009,
+      tag: 'San Fransisco',
+    },
+  ],
 };
 
 export const SanJose_Sample_Empty = {
@@ -2381,4 +2388,11 @@ export const SanJose_Sample_Empty = {
   latitude: '37.3382082',
   longitude: '-121.8863286',
   tags: [],
+  area: [
+    {
+      latitude: 37.7576713,
+      longitude: -122.5200009,
+      tag: 'San Fransisco',
+    },
+  ],
 };
