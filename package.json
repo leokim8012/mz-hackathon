@@ -11,7 +11,10 @@
   "dependencies": {
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.0.3"
+    "next": "14.0.3",
+    "@woozdesign/icons": "^1.1.0",
+    "@woozdesign/ui": "^1.1.12-alpha.0",
+    "classnames": "^2.3.2"
   },
   "devDependencies": {
     "typescript": "^5",
@@ -19,6 +22,7 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.0.3"
+    "eslint-config-next": "14.0.3",
+    "sass": "^1.69.5"
   }
 }
