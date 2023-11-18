@@ -378,7 +378,7 @@ export const SanJose_Sample = {
       longitude: -121.97301281947,
       uid: 'n_b90e4ac6bb0187265f49fe25858563a4_37.328050291933_-121.97301281947',
       votes: 2,
-      tag: 'For some reason we got ducks',
+      tag: '무슨 이유에서인지 오리가 살고 있음',
     },
     {
       epoch: 1638170266477,
@@ -1450,7 +1450,7 @@ export const SanJose_Sample = {
       longitude: -121.97301281947,
       uid: 'n_b90e4ac6bb0187265f49fe25858563a4_37.328050291933_-121.97301281947',
       votes: 2,
-      tag: 'For some reason we got ducks',
+      tag: '무슨 이유에서인지 오리가 살고 있음',
     },
     {
       epoch: 1567622093206,
@@ -2373,4 +2373,12 @@ export const SanJose_Sample = {
       tag: 'Rich People Sex Dungeon',
     },
   ],
+};
+
+export const SanJose_Sample2 = {
+  slug: 'san-jose',
+  cityName: 'San Jose',
+  latitude: '37.3382082',
+  longitude: '-121.8863286',
+  tags: [],
 };

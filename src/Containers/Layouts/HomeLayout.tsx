@@ -1,5 +1,5 @@
 'use client';
-import { SanJose_Sample } from '@/utils/data/sampleData';
+import { SanJose_Sample, SanJose_Sample2 } from '@/utils/data/sampleData';
 import { Button, Card, Flex, Tab, TextField } from '@woozdesign/ui';
 import dynamic from 'next/dynamic';
 import { FC } from 'react';
@@ -16,8 +16,9 @@ const DynamicMapView = dynamic(() => import('../Views/MapView'), { ssr: false })
 
 const HomeLayout: FC<HomeLayoutProps> = ({}) => {
   return (
-    <main style={{ height: '100vh' }}>
-      {/* <AppBar position={'fixed'} variant={'translucent'}>
+    <Tab.Root defaultValue={'comments'}>
+      <main style={{ height: '100vh' }}>
+        {/* <AppBar position={'fixed'} variant={'translucent'}>
         <AppBar.Header>
           <Icon type={'Wooz2'} />
         </AppBar.Header>
@@ -29,10 +30,9 @@ const HomeLayout: FC<HomeLayoutProps> = ({}) => {
         </AppBar.Action>
       </AppBar> */}
 
-      <div className={styles.panel}>
-        <Flex direction={'column'}>
-          <Flex space="2" width={'100%'} justify={'center'}>
-            <Tab.Root defaultValue={'comments'}>
+        <div className={styles.panel}>
+          <Flex direction={'column'}>
+            <Flex space="2" width={'100%'} justify={'center'}>
               <Tab.List variant={'ios'} highContrast>
                 <Tab.Trigger value="comments">💬 Comment</Tab.Trigger>
                 <Tab.Trigger value="pepper">🌶️ Pepper</Tab.Trigger>
@@ -40,13 +40,18 @@ const HomeLayout: FC<HomeLayoutProps> = ({}) => {
                 <Tab.Trigger value="office">👔 Office</Tab.Trigger>
                 <Tab.Trigger value="food">🥩 Food</Tab.Trigger>
               </Tab.List>
-            </Tab.Root>
+            </Flex>
+            <TextField iconPrepend={<Icon type={'Search'} />} variant={'solid'} shadow="4" size={'xlarge'} placeholder={'San Jose'} block />
           </Flex>
-          <TextField iconPrepend={<Icon type={'Search'} />} variant={'solid'} shadow="4" size={'xlarge'} placeholder={'San Jose'} block />
-        </Flex>
-      </div>
-      <DynamicMapView data={SanJose_Sample as MapData} />
-    </main>
+        </div>
+        <Tab.Content value="comments" style={{ height: '100%' }}>
+          <DynamicMapView data={SanJose_Sample as MapData} />
+        </Tab.Content>
+        <Tab.Content value="pepper" style={{ height: '100%' }}>
+          <DynamicMapView data={SanJose_Sample2 as MapData} />
+        </Tab.Content>
+      </main>
+    </Tab.Root>
   );
 };
 
