@@ -9,20 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.0.3",
     "@woozdesign/icons": "^1.1.0",
     "@woozdesign/ui": "^1.1.12-alpha.0",
-    "classnames": "^2.3.2"
+    "classnames": "^2.3.2",
+    "leaflet": "^1.9.4",
+    "next": "14.0.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-leaflet": "^4.2.1"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@types/leaflet": "^1.9.8",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "14.0.3",
-    "sass": "^1.69.5"
+    "sass": "^1.69.5",
+    "typescript": "^5"
   }
 }
