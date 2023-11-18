@@ -1,8 +1,6 @@
 'use client';
 
-import { getRandomAccentColor } from '@/utils/getRandomThemeColor';
 import { ThemeProvider } from '@woozdesign/ui';
-import { useRouter } from 'next/navigation';
 import React from 'react';
 
 export const RootStyleRegistry = ({ children }: React.PropsWithChildren) => {
