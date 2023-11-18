@@ -2380,5 +2380,38 @@ export const SanJose_Sample2 = {
   cityName: 'San Jose',
   latitude: '37.3382082',
   longitude: '-121.8863286',
+  tags: [
+    {
+      epoch: 1646568541855,
+      latitude: 37.3536691,
+      longitude: -121.9504723,
+      uid: 'n_9386dd4asdf1m1k2fde2f413300_37.338739876572_-121.97333013891',
+      votes: 3,
+      tag: '🌶️',
+    },
+    {
+      epoch: 1646568541855,
+      latitude: 37.338739876572,
+      longitude: -121.97333013891,
+      uid: 'n_9386dd4a1ba010a9cd04bfde2f413300_37.338739876572_-121.97333013891',
+      votes: 1,
+      tag: 'Donuts',
+    },
+    {
+      epoch: 1646568505628,
+      latitude: 37.338845827447,
+      longitude: -121.97294117398,
+      uid: 'n_9386dd4a1ba010a9cd04bfde2f413300_37.338845827447_-121.97294117398',
+      votes: 2,
+      tag: 'Donut Heaven',
+    },
+  ],
+};
+
+export const SanJose_Sample_Empty = {
+  slug: 'san-jose',
+  cityName: 'San Jose',
+  latitude: '37.3382082',
+  longitude: '-121.8863286',
   tags: [],
 };
