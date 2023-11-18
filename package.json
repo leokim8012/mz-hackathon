@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@react-leaflet/core": "^2.1.0",
     "@woozdesign/icons": "^1.1.0",
     "@woozdesign/ui": "^1.1.12-alpha.0",
     "classnames": "^2.3.2",

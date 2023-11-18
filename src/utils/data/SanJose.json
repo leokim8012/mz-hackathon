@@ -1,0 +1,2368 @@
+{
+  "slug": "san-jose",
+  "cityName": "San Jose",
+  "latitude": "37.3382082",
+  "longitude": "-121.8863286",
+  "tags": [
+    {
+      "epoch": 1646568541855,
+      "latitude": 37.338739876572,
+      "longitude": -121.97333013891,
+      "uid": "n_9386dd4a1ba010a9cd04bfde2f413300_37.338739876572_-121.97333013891",
+      "votes": 1,
+      "tag": "Donuts"
+    },
+    {
+      "epoch": 1646568505628,
+      "latitude": 37.338845827447,
+      "longitude": -121.97294117398,
+      "uid": "n_9386dd4a1ba010a9cd04bfde2f413300_37.338845827447_-121.97294117398",
+      "votes": -1,
+      "tag": "Donut Heaven"
+    },
+    {
+      "epoch": 1646286455614,
+      "latitude": 37.416478781397,
+      "longitude": -122.02752218442,
+      "uid": "n_d737b9a5e0737b1c33ae7281fcf6d512_37.416478781397_-122.02752218442",
+      "votes": 0,
+      "tag": "I miss the purple"
+    },
+    {
+      "epoch": 1645853099603,
+      "latitude": 37.349449892196,
+      "longitude": -121.89559601992,
+      "uid": "n_f48fecfe062c3d592009f4cd76a64aae_37.349449892196_-121.89559601992",
+      "votes": 6,
+      "tag": "J Town"
+    },
+    {
+      "epoch": 1645853057440,
+      "latitude": 37.34802981854,
+      "longitude": -121.91094898432,
+      "uid": "n_f48fecfe062c3d592009f4cd76a64aae_37.34802981854_-121.91094898432",
+      "votes": -1,
+      "tag": "Tent City"
+    },
+    {
+      "epoch": 1645852703230,
+      "latitude": 37.323482092913,
+      "longitude": -121.93543435475,
+      "uid": "n_f48fecfe062c3d592009f4cd76a64aae_37.323482092913_-121.93543435475",
+      "votes": 1,
+      "tag": "flavortown falafels"
+    },
+    {
+      "epoch": 1645549724808,
+      "latitude": 37.406421169414,
+      "longitude": -122.08710451109,
+      "uid": "n_3df2101dbcc80f73758e996e99d7dded_37.406421169414_-122.08710451109",
+      "votes": -1,
+      "tag": "Andrew got run over here lol"
+    },
+    {
+      "epoch": 1645549678386,
+      "latitude": 37.403112963784,
+      "longitude": -122.09800419544,
+      "uid": "n_3df2101dbcc80f73758e996e99d7dded_37.403112963784_-122.09800419544",
+      "votes": 2,
+      "tag": "the hood"
+    },
+    {
+      "epoch": 1645319403743,
+      "latitude": 37.462499686437,
+      "longitude": -122.12639186569,
+      "uid": "n_6c66e2e4c681cc44ae755ef38bdf4740_37.462499686437_-122.12639186569",
+      "votes": 0,
+      "tag": "Tongans \ud83e\udd1d"
+    },
+    {
+      "epoch": 1645319214651,
+      "latitude": 37.377578118658,
+      "longitude": -122.04111711617,
+      "uid": "n_6c66e2e4c681cc44ae755ef38bdf4740_37.377578118658_-122.04111711617",
+      "votes": 0,
+      "tag": "Hoopers"
+    },
+    {
+      "epoch": 1645254129820,
+      "latitude": 37.320889797416,
+      "longitude": -121.94793359664,
+      "uid": "n_f089d25b43b320833509601bd26ccad0_37.320889797416_-121.94793359664",
+      "votes": 0,
+      "tag": "Cool lamborghinis"
+    },
+    {
+      "epoch": 1645142590840,
+      "latitude": 37.348004382225,
+      "longitude": -121.91047717504,
+      "uid": "n_a1ff40d811a221791d19447c34bea720_37.348004382225_-121.91047717504",
+      "votes": -1,
+      "tag": "bring pepper spray running trail"
+    },
+    {
+      "epoch": 1645142531735,
+      "latitude": 37.339003484155,
+      "longitude": -121.89133002391,
+      "uid": "n_a1ff40d811a221791d19447c34bea720_37.339003484155_-121.89133002391",
+      "votes": 23,
+      "tag": "This is not a park to have a picnic at"
+    },
+    {
+      "epoch": 1644459486959,
+      "latitude": 37.428755451829,
+      "longitude": -121.91178477719,
+      "uid": "n_796c8b011eaade6eb90eebf9b7f2f68b_37.428755451829_-121.91178477719",
+      "votes": -1,
+      "tag": "Uh Oh"
+    },
+    {
+      "epoch": 1644256657245,
+      "latitude": 37.364913079563,
+      "longitude": -121.84133793322,
+      "uid": "n_40bfa4c76e0fb011cebf40c0b10d0e1f_37.364913079563_-121.84133793322",
+      "votes": -1,
+      "tag": "vgls 13"
+    },
+    {
+      "epoch": 1643780265216,
+      "latitude": 37.515755371428,
+      "longitude": -121.88450079082,
+      "uid": "n_0f866b19a64492689753b6ffa8210be2_37.515755371428_-121.88450079082",
+      "votes": 0,
+      "tag": "Cool mountain"
+    },
+    {
+      "epoch": 1643763894737,
+      "latitude": 37.321645074075,
+      "longitude": -121.9852181776,
+      "uid": "n_7bbe7a77cf61df091eb9c561e5eeeb96_37.321645074075_-121.9852181776",
+      "votes": 0,
+      "tag": "Car break-ins almost every week"
+    },
+    {
+      "epoch": 1643763881417,
+      "latitude": 37.321214895458,
+      "longitude": -121.98623243498,
+      "uid": "n_7bbe7a77cf61df091eb9c561e5eeeb96_37.321214895458_-121.98623243498",
+      "votes": 3,
+      "tag": "Car break-ins almost every"
+    },
+    {
+      "epoch": 1643535522042,
+      "latitude": 37.096247497395,
+      "longitude": -122.01534132239,
+      "uid": "n_2f3c1b183b5c2712ead388d609c252fe_37.096247497395_-122.01534132239",
+      "votes": -2,
+      "tag": "Retarded Mountain People"
+    },
+    {
+      "epoch": 1642270601604,
+      "latitude": 37.558976295807,
+      "longitude": -121.961361992,
+      "uid": "n_a5cbb395f2c189f3569ef099f2d21882_37.558976295807_-121.961361992",
+      "votes": 0,
+      "tag": "brown town v3.6"
+    },
+    {
+      "epoch": 1641604733731,
+      "latitude": 37.342785017173,
+      "longitude": -121.84061172204,
+      "uid": "n_186bf4350053e540764f46cbdda0135e_37.342785017173_-121.84061172204",
+      "votes": -1,
+      "tag": "Varrio Pocoway 13 VST"
+    },
+    {
+      "epoch": 1641604140161,
+      "latitude": 37.548907669453,
+      "longitude": -122.01014243651,
+      "uid": "n_186bf4350053e540764f46cbdda0135e_37.548907669453_-122.01014243651",
+      "votes": 0,
+      "tag": "spl 13 fremont"
+    },
+    {
+      "epoch": 1641603314988,
+      "latitude": 37.327137002468,
+      "longitude": -121.8494294376,
+      "uid": "n_186bf4350053e540764f46cbdda0135e_37.327137002468_-121.8494294376",
+      "votes": -1,
+      "tag": "Shout to Cesar M!!!"
+    },
+    {
+      "epoch": 1641234114614,
+      "latitude": 37.362742664758,
+      "longitude": -121.86244864572,
+      "uid": "n_99511c5cff056ee2870715b91610f4df_37.362742664758_-121.86244864572",
+      "votes": 1,
+      "tag": "vll$ xiv"
+    },
+    {
+      "epoch": 1641234002612,
+      "latitude": 37.36378768611,
+      "longitude": -121.86234191252,
+      "uid": "n_99511c5cff056ee2870715b91610f4df_37.36378768611_-121.86234191252",
+      "votes": 1,
+      "tag": "c-dub "
+    },
+    {
+      "epoch": 1641075095741,
+      "latitude": 37.329338441073,
+      "longitude": -121.85311268466,
+      "uid": "n_b94f5fcb1475a79885de0aaeceb17a29_37.329338441073_-121.85311268466",
+      "votes": -1,
+      "tag": "Sure\u00f1o hood"
+    },
+    {
+      "epoch": 1641075071111,
+      "latitude": 37.320464801331,
+      "longitude": -121.84604891925,
+      "uid": "n_b94f5fcb1475a79885de0aaeceb17a29_37.320464801331_-121.84604891925",
+      "votes": -1,
+      "tag": "sure\u00f1o hood "
+    },
+    {
+      "epoch": 1640980153364,
+      "latitude": 37.435693428876,
+      "longitude": -121.87614290735,
+      "uid": "n_ba906ef396d81a2963af96300160acf1_37.435693428876_-121.87614290735",
+      "votes": -1,
+      "tag": "Fake Nortenos"
+    },
+    {
+      "epoch": 1640739113046,
+      "latitude": 37.11603597527,
+      "longitude": -122.11634057876,
+      "uid": "n_0ee85db934c8ffc07f7311863b6ac315_37.11603597527_-122.11634057876",
+      "votes": 0,
+      "tag": "Liberal rednecks"
+    },
+    {
+      "epoch": 1640738986366,
+      "latitude": 37.132167171829,
+      "longitude": -122.11839026042,
+      "uid": "n_26a878b0e4f2faea5e5a13b5a27c7970_37.132167171829_-122.11839026042",
+      "votes": 0,
+      "tag": "Weed farms"
+    },
+    {
+      "epoch": 1640488018545,
+      "latitude": 37.382682408362,
+      "longitude": -121.83411174745,
+      "uid": "n_48b719a2c6b5664f23f2e40daa2a98ae_37.382682408362_-121.83411174745",
+      "votes": -1,
+      "tag": "Norteno Hood"
+    },
+    {
+      "epoch": 1640330599077,
+      "latitude": 37.222744956952,
+      "longitude": -121.88535222644,
+      "uid": "n_7256a894be136b1e8a74b670d4d4cdf4_37.222744956952_-121.88535222644",
+      "votes": 0,
+      "tag": "Decent house can cost up to $4 million"
+    },
+    {
+      "epoch": 1640219078242,
+      "latitude": 37.407290678907,
+      "longitude": -121.94033935758,
+      "uid": "n_a0218ffd357509a20fbc0a37f6172c47_37.407290678907_-121.94033935758",
+      "votes": 5,
+      "tag": "indian grand parents"
+    },
+    {
+      "epoch": 1640218851686,
+      "latitude": 37.404759639182,
+      "longitude": -121.93872960534,
+      "uid": "n_a0218ffd357509a20fbc0a37f6172c47_37.404759639182_-121.93872960534",
+      "votes": 2,
+      "tag": "oranges in summer"
+    },
+    {
+      "epoch": 1640126358177,
+      "latitude": 37.356224085788,
+      "longitude": -121.82199913574,
+      "uid": "n_22f1428718084464b0d5a5b5789c818d_37.356224085788_-121.82199913574",
+      "votes": 8,
+      "tag": "San Jose Blue Jeans"
+    },
+    {
+      "epoch": 1640126309942,
+      "latitude": 37.375233829584,
+      "longitude": -121.83579412741,
+      "uid": "n_22f1428718084464b0d5a5b5789c818d_37.375233829584_-121.83579412741",
+      "votes": -1,
+      "tag": "ECONO Liquors "
+    },
+    {
+      "epoch": 1640126273010,
+      "latitude": 37.38109986924,
+      "longitude": -121.83045315184,
+      "uid": "n_22f1428718084464b0d5a5b5789c818d_37.38109986924_-121.83045315184",
+      "votes": 3,
+      "tag": "Norteno hood"
+    },
+    {
+      "epoch": 1639669303783,
+      "latitude": 37.407970416551,
+      "longitude": -122.1156076303,
+      "uid": "n_a418a3d6e857295b5d40dd6a277b395b_37.407970416551_-122.1156076303",
+      "votes": -1,
+      "tag": "Growing concrete jungle"
+    },
+    {
+      "epoch": 1639153593531,
+      "latitude": 37.440851154132,
+      "longitude": -121.92114156102,
+      "uid": "n_d91f12ee849d7b639d1d187bc94dbf42_37.440851154132_-121.92114156102",
+      "votes": 0,
+      "tag": "405 Jr."
+    },
+    {
+      "epoch": 1639044421248,
+      "latitude": 37.264795804556,
+      "longitude": -122.02674544393,
+      "uid": "n_505bdd197e1fe77fd975289455ed90e9_37.264795804556_-122.02674544393",
+      "votes": -1,
+      "tag": "Asian Log Gatos"
+    },
+    {
+      "epoch": 1638594346502,
+      "latitude": 37.253683343937,
+      "longitude": -122.08811399206,
+      "uid": "n_d4bd9e43edf2562198066f23871053c4_37.253683343937_-122.08811399206",
+      "votes": 0,
+      "tag": "racetrack"
+    },
+    {
+      "epoch": 1638576997317,
+      "latitude": 37.401158680224,
+      "longitude": -122.13385783241,
+      "uid": "n_de669bd257640541fac2ab6eba5a21ad_37.401158680224_-122.13385783241",
+      "votes": 0,
+      "tag": "Suicide Central"
+    },
+    {
+      "epoch": 1638463966661,
+      "latitude": 37.308299945104,
+      "longitude": -121.80514066037,
+      "uid": "n_7b2c3f882f689c7cddd7f903d6689724_37.308299945104_-121.80514066037",
+      "votes": -1,
+      "tag": "where a real foo live"
+    },
+    {
+      "epoch": 1638350853585,
+      "latitude": 37.227504690565,
+      "longitude": -122.00056621,
+      "uid": "n_1777afac3fccabc138d0608f488ec97d_37.227504690565_-122.00056621",
+      "votes": 2,
+      "tag": "Def the Woz's house or I'll eat an iPod"
+    },
+    {
+      "epoch": 1638302143994,
+      "latitude": 37.413190769303,
+      "longitude": -121.95233399148,
+      "uid": "n_a7642ff7e8925c7b7ac6e34667967595_37.413190769303_-121.95233399148",
+      "votes": 0,
+      "tag": "Momentus"
+    },
+    {
+      "epoch": 1638256331657,
+      "latitude": 37.328050291933,
+      "longitude": -121.97301281947,
+      "uid": "n_b90e4ac6bb0187265f49fe25858563a4_37.328050291933_-121.97301281947",
+      "votes": 2,
+      "tag": "For some reason we got ducks"
+    },
+    {
+      "epoch": 1638170266477,
+      "latitude": 37.263850583729,
+      "longitude": -122.01143774088,
+      "uid": "n_4780f8c2c643fc698b35d0bf149dc79c_37.263850583729_-122.01143774088",
+      "votes": 4,
+      "tag": "Don't trust counselors making urGED plan"
+    },
+    {
+      "epoch": 1638169671382,
+      "latitude": 37.313723056828,
+      "longitude": -121.95145064544,
+      "uid": "n_4780f8c2c643fc698b35d0bf149dc79c_37.313723056828_-121.95145064544",
+      "votes": 2,
+      "tag": "Rip Toys R Us"
+    },
+    {
+      "epoch": 1638169566106,
+      "latitude": 37.277628999993,
+      "longitude": -121.85665662847,
+      "uid": "n_4780f8c2c643fc698b35d0bf149dc79c_37.277628999993_-121.85665662847",
+      "votes": 7,
+      "tag": "Always Traffic Guarantee "
+    },
+    {
+      "epoch": 1638065077823,
+      "latitude": 37.310715911733,
+      "longitude": -121.93009528786,
+      "uid": "n_d941194ec48bc5de4581166d3ce0f4df_37.310715911733_-121.93009528786",
+      "votes": -1,
+      "tag": "blacks and Mexicans "
+    },
+    {
+      "epoch": 1581807164001,
+      "latitude": 37.433876583575,
+      "longitude": -121.94535859171,
+      "uid": "n_5000d88e4ec021b669218d90f1dc81ea_37.433876583575_-121.94535859171",
+      "votes": 48,
+      "tag": "Source of Smell"
+    },
+    {
+      "epoch": 1535170344773,
+      "latitude": 37.257382640538,
+      "longitude": -121.82558550572,
+      "uid": "n_20eac7c114440e5c71ab09306b499e8c_37.257382640538_-121.82558550572",
+      "votes": 30,
+      "tag": "Gunshots nightly"
+    },
+    {
+      "epoch": 1603789312551,
+      "latitude": 37.286014916121,
+      "longitude": -121.82147792797,
+      "uid": "n_f70eb16274266c44f0e036269ec17890_37.286014916121_-121.82147792797",
+      "votes": 29,
+      "tag": "If u don't know anyone don't come here"
+    },
+    {
+      "epoch": 1606552750312,
+      "latitude": 37.239518953164,
+      "longitude": -121.97477643256,
+      "uid": "n_d807f0fa0656e21852d2dcf4bd6583b5_37.239518953164_-121.97477643256",
+      "votes": 28,
+      "tag": "Rich 18 year olds driving range rovers"
+    },
+    {
+      "epoch": 1499160696188,
+      "latitude": 37.394142864544,
+      "longitude": -122.09290006104,
+      "uid": "n_90da5a5beb558149254621633fdfa7d8_37.394142864544_-122.09290006104",
+      "votes": 26,
+      "tag": "Boring Google employees making too much"
+    },
+    {
+      "epoch": 1536456765956,
+      "latitude": 37.427513676925,
+      "longitude": -121.90094325328,
+      "uid": "n_effe76fb73c894b61350506ef0dbd192_37.427513676925_-121.90094325328",
+      "votes": 26,
+      "tag": "Milstanky"
+    },
+    {
+      "epoch": 1617301329970,
+      "latitude": 37.345684100733,
+      "longitude": -121.84886527967,
+      "uid": "n_732633eccdc9111c3bf685ebaa60fc69_37.345684100733_-121.84886527967",
+      "votes": 24,
+      "tag": "r/idiotsincars"
+    },
+    {
+      "epoch": 1536457347831,
+      "latitude": 37.531632429937,
+      "longitude": -122.00663768874,
+      "uid": "n_effe76fb73c894b61350506ef0dbd192_37.531632429937_-122.00663768874",
+      "votes": 23,
+      "tag": "Indians in Camrys"
+    },
+    {
+      "epoch": 1645142531735,
+      "latitude": 37.339003484155,
+      "longitude": -121.89133002391,
+      "uid": "n_a1ff40d811a221791d19447c34bea720_37.339003484155_-121.89133002391",
+      "votes": 23,
+      "tag": "This is not a park to have a picnic at"
+    },
+    {
+      "epoch": 1605541528967,
+      "latitude": 37.367845831899,
+      "longitude": -121.93175334651,
+      "uid": "n_f084ddabaef7bd308b80565e9d7cf1e4_37.367845831899_-121.93175334651",
+      "votes": 22,
+      "tag": "Way more chill than SFO"
+    },
+    {
+      "epoch": 1499237017428,
+      "latitude": 37.423092655003,
+      "longitude": -122.08498218002,
+      "uid": "n_ee1ec0b3a46f2f528c3a41e9001289b8_37.423092655003_-122.08498218002",
+      "votes": 20,
+      "tag": "Google HQ"
+    },
+    {
+      "epoch": 1535041156360,
+      "latitude": 37.266096662802,
+      "longitude": -122.03549593584,
+      "uid": "n_92244da4e4e3c9cb85c3df4252beb67a_37.266096662802_-122.03549593584",
+      "votes": 19,
+      "tag": "90's Tech   and New Asian  "
+    },
+    {
+      "epoch": 1569228104228,
+      "latitude": 37.299136642427,
+      "longitude": -122.00429046293,
+      "uid": "n_c99cfec529bcb871262ae76aec541314_37.299136642427_-122.00429046293",
+      "votes": 18,
+      "tag": "overbearing parents"
+    },
+    {
+      "epoch": 1533672572359,
+      "latitude": 37.337136054996,
+      "longitude": -121.87817145827,
+      "uid": "n_a37f3d7db553b1f73e343490840f9508_37.337136054996_-121.87817145827",
+      "votes": 17,
+      "tag": "Puking frat boys"
+    },
+    {
+      "epoch": 1611200017480,
+      "latitude": 37.325517356362,
+      "longitude": -121.98931917108,
+      "uid": "n_226f64ec7ce8f4abb5a4ea1674961df9_37.325517356362_-121.98931917108",
+      "votes": 15,
+      "tag": "Car Dealerships"
+    },
+    {
+      "epoch": 1585944793574,
+      "latitude": 37.333744363082,
+      "longitude": -121.90609323522,
+      "uid": "n_19a2ea02fd073cde12cae48151b92ba6_37.333744363082_-121.90609323522",
+      "votes": 15,
+      "tag": "Shark Tank"
+    },
+    {
+      "epoch": 1586710418896,
+      "latitude": 37.221057163322,
+      "longitude": -121.87648912562,
+      "uid": "n_5165dece6a3161032783069d9e9fde56_37.221057163322_-121.87648912562",
+      "votes": 15,
+      "tag": "Pretends to be rich"
+    },
+    {
+      "epoch": 1605658960728,
+      "latitude": 37.331639191417,
+      "longitude": -121.85868453436,
+      "uid": "n_7eae78ee73359ca0eae66362ff3e5947_37.331639191417_-121.85868453436",
+      "votes": 15,
+      "tag": "Viet-Noms"
+    },
+    {
+      "epoch": 1529161775423,
+      "latitude": 37.367489883528,
+      "longitude": -122.0356211142,
+      "uid": "n_d4c32386ac787d07fa9e61e3e8dc5b6e_37.367489883528_-122.0356211142",
+      "votes": 13,
+      "tag": "more good food than you think"
+    },
+    {
+      "epoch": 1597515509909,
+      "latitude": 37.496781906795,
+      "longitude": -121.9468158056,
+      "uid": "n_7ce8ad42396611a8b3aed344b048e144_37.496781906795_-121.9468158056",
+      "votes": 12,
+      "tag": "Driving behind four Teslas in a row"
+    },
+    {
+      "epoch": 1567830793336,
+      "latitude": 37.292862988221,
+      "longitude": -121.7914165239,
+      "uid": "n_d90b1e45bc6706e55b33d19c45b3f332_37.292862988221_-121.7914165239",
+      "votes": 12,
+      "tag": "Teslas"
+    },
+    {
+      "epoch": 1499160715236,
+      "latitude": 37.318276701976,
+      "longitude": -122.03899838867,
+      "uid": "n_90da5a5beb558149254621633fdfa7d8_37.318276701976_-122.03899838867",
+      "votes": 11,
+      "tag": "Apple HQ"
+    },
+    {
+      "epoch": 1565946185806,
+      "latitude": 37.349923232439,
+      "longitude": -121.83301018929,
+      "uid": "n_d245cf901692ae416dc89cf5ded3f846_37.349923232439_-121.83301018929",
+      "votes": 11,
+      "tag": "A very active norteno neighborhood"
+    },
+    {
+      "epoch": 1567870300480,
+      "latitude": 37.326356855032,
+      "longitude": -121.79835639972,
+      "uid": "n_4da611f032358af8a29ff46011d650ac_37.326356855032_-121.79835639972",
+      "votes": 11,
+      "tag": "Where Teslas are common as a Camry"
+    },
+    {
+      "epoch": 1567871164447,
+      "latitude": 37.326597813993,
+      "longitude": -121.94535949151,
+      "uid": "n_4da611f032358af8a29ff46011d650ac_37.326597813993_-121.94535949151",
+      "votes": 10,
+      "tag": "Best mall in northern CA"
+    },
+    {
+      "epoch": 1617301647918,
+      "latitude": 37.267620706019,
+      "longitude": -121.94316179129,
+      "uid": "n_732633eccdc9111c3bf685ebaa60fc69_37.267620706019_-121.94316179129",
+      "votes": 10,
+      "tag": "Boomer Central "
+    },
+    {
+      "epoch": 1535041039028,
+      "latitude": 37.303228177502,
+      "longitude": -121.90185025137,
+      "uid": "n_92244da4e4e3c9cb85c3df4252beb67a_37.303228177502_-121.90185025137",
+      "votes": 10,
+      "tag": "Italian Leftovers"
+    },
+    {
+      "epoch": 1587281643778,
+      "latitude": 37.325075347374,
+      "longitude": -121.88053383992,
+      "uid": "n_4d9413a84889cdb1012abea90d97096d_37.325075347374_-121.88053383992",
+      "votes": 10,
+      "tag": "Mexico"
+    },
+    {
+      "epoch": 1567871247338,
+      "latitude": 37.308366297689,
+      "longitude": -121.79333008736,
+      "uid": "n_4da611f032358af8a29ff46011d650ac_37.308366297689_-121.79333008736",
+      "votes": 10,
+      "tag": "Evergreen/SilverCreek suburbs"
+    },
+    {
+      "epoch": 1636998477056,
+      "latitude": 37.29770660869,
+      "longitude": -121.95342773858,
+      "uid": "n_8d90e06d4ded072a4d967abf4732fb25_37.29770660869_-121.95342773858",
+      "votes": 9,
+      "tag": "Where homie got shot"
+    },
+    {
+      "epoch": 1635911833245,
+      "latitude": 37.378208358451,
+      "longitude": -121.84244937786,
+      "uid": "n_2dde279cabb4a35dd42f64cb53e7e7f2_37.378208358451_-121.84244937786",
+      "votes": 9,
+      "tag": "15 year olds steal cars here"
+    },
+    {
+      "epoch": 1586651418530,
+      "latitude": 37.510116755668,
+      "longitude": -122.1226799794,
+      "uid": "n_6863d443ddef4804b5e27e44250e6622_37.510116755668_-122.1226799794",
+      "votes": 8,
+      "tag": "Where Silicon Valley Should Have Stopped"
+    },
+    {
+      "epoch": 1586710657775,
+      "latitude": 37.340268700745,
+      "longitude": -122.06895354227,
+      "uid": "n_5165dece6a3161032783069d9e9fde56_37.340268700745_-122.06895354227",
+      "votes": 8,
+      "tag": "The garage where Apple was founded"
+    },
+    {
+      "epoch": 1619476347892,
+      "latitude": 37.23081630782,
+      "longitude": -121.97901028516,
+      "uid": "n_29753f3ef415a27841bd57702ac84465_37.23081630782_-121.97901028516",
+      "votes": 8,
+      "tag": "Birthplace of whites from Get Out"
+    },
+    {
+      "epoch": 1635908270137,
+      "latitude": 37.333638367786,
+      "longitude": -121.88911785553,
+      "uid": "n_2dde279cabb4a35dd42f64cb53e7e7f2_37.333638367786_-121.88911785553",
+      "votes": 8,
+      "tag": "Worst place to try n put 5 star hotel"
+    },
+    {
+      "epoch": 1612223795495,
+      "latitude": 37.390957177298,
+      "longitude": -121.88398060066,
+      "uid": "n_d45ce0161052bc116524bdc8b9171d63_37.390957177298_-121.88398060066",
+      "votes": 8,
+      "tag": "Asian costco"
+    },
+    {
+      "epoch": 1596073006929,
+      "latitude": 37.358725857552,
+      "longitude": -121.83774889597,
+      "uid": "n_11fadc05d6c7ac9f9a6771ebb9869d50_37.358725857552_-121.83774889597",
+      "votes": 8,
+      "tag": "good tacos"
+    },
+    {
+      "epoch": 1640126358177,
+      "latitude": 37.356224085788,
+      "longitude": -121.82199913574,
+      "uid": "n_22f1428718084464b0d5a5b5789c818d_37.356224085788_-121.82199913574",
+      "votes": 8,
+      "tag": "San Jose Blue Jeans"
+    },
+    {
+      "epoch": 1504468621499,
+      "latitude": 37.331740191772,
+      "longitude": -122.01210405261,
+      "uid": "n_8d9ae5ffc277daa89e0240e06fe4605b_37.331740191772_-122.01210405261",
+      "votes": 7,
+      "tag": "Apple Park"
+    },
+    {
+      "epoch": 1581807278295,
+      "latitude": 37.455712106394,
+      "longitude": -121.9300274357,
+      "uid": "n_5000d88e4ec021b669218d90f1dc81ea_37.455712106394_-121.9300274357",
+      "votes": 7,
+      "tag": "1B in environmental damage & counting"
+    },
+    {
+      "epoch": 1615550523581,
+      "latitude": 37.32076088281,
+      "longitude": -121.90551870112,
+      "uid": "n_8ffa5be092f0269790110aef152b8b83_37.32076088281_-121.90551870112",
+      "votes": 7,
+      "tag": "Pretty nice dog park"
+    },
+    {
+      "epoch": 1628182085157,
+      "latitude": 37.339168481544,
+      "longitude": -121.88851340872,
+      "uid": "n_cd3b10338535eca6160744744285c430_37.339168481544_-121.88851340872",
+      "votes": 7,
+      "tag": "Downtown"
+    },
+    {
+      "epoch": 1526659460778,
+      "latitude": 37.336758879367,
+      "longitude": -121.88510123809,
+      "uid": "n_465bc64a46805afe1eac6cfc959683a7_37.336758879367_-121.88510123809",
+      "votes": 7,
+      "tag": "San Jose State"
+    },
+    {
+      "epoch": 1638169566106,
+      "latitude": 37.277628999993,
+      "longitude": -121.85665662847,
+      "uid": "n_4780f8c2c643fc698b35d0bf149dc79c_37.277628999993_-121.85665662847",
+      "votes": 7,
+      "tag": "Always Traffic Guarantee "
+    },
+    {
+      "epoch": 1614762754591,
+      "latitude": 37.309814439554,
+      "longitude": -121.85328378493,
+      "uid": "n_8da27ce8d5ddf97c855ea568eda6601c_37.309814439554_-121.85328378493",
+      "votes": 7,
+      "tag": "ethnic costco"
+    },
+    {
+      "epoch": 1499753282481,
+      "latitude": 37.408563764064,
+      "longitude": -122.08766438904,
+      "uid": "n_5a4cd643fb24cebc696b22856397905d_37.408563764064_-122.08766438904",
+      "votes": 6,
+      "tag": "get run over by a self driving car"
+    },
+    {
+      "epoch": 1628182024476,
+      "latitude": 37.302838631861,
+      "longitude": -121.98006731004,
+      "uid": "n_cd3b10338535eca6160744744285c430_37.302838631861_-121.98006731004",
+      "votes": 6,
+      "tag": "West San Jose"
+    },
+    {
+      "epoch": 1538200110548,
+      "latitude": 37.276728414921,
+      "longitude": -121.90056857904,
+      "uid": "n_dbc92da8fbb59b829da13156f1258d06_37.276728414921_-121.90056857904",
+      "votes": 6,
+      "tag": "Nanny land"
+    },
+    {
+      "epoch": 1645853099603,
+      "latitude": 37.349449892196,
+      "longitude": -121.89559601992,
+      "uid": "n_f48fecfe062c3d592009f4cd76a64aae_37.349449892196_-121.89559601992",
+      "votes": 6,
+      "tag": "J Town"
+    },
+    {
+      "epoch": 1608096830179,
+      "latitude": 37.335520431584,
+      "longitude": -121.88232230829,
+      "uid": "n_2784a141477247c2f8da53e621f3873a_37.335520431584_-121.88232230829",
+      "votes": 6,
+      "tag": "best roi uni in the bay"
+    },
+    {
+      "epoch": 1606508891566,
+      "latitude": 37.260076765357,
+      "longitude": -121.87619654824,
+      "uid": "n_ba6cb05529c4a35c0c6629ede347ea7d_37.260076765357_-121.87619654824",
+      "votes": 6,
+      "tag": "Chill Almaden "
+    },
+    {
+      "epoch": 1603788704654,
+      "latitude": 37.327692173245,
+      "longitude": -121.87595868592,
+      "uid": "n_f70eb16274266c44f0e036269ec17890_37.327692173245_-121.87595868592",
+      "votes": 6,
+      "tag": "Gun shots after a house party"
+    },
+    {
+      "epoch": 1635909576104,
+      "latitude": 37.370980510867,
+      "longitude": -121.85542076675,
+      "uid": "n_2dde279cabb4a35dd42f64cb53e7e7f2_37.370980510867_-121.85542076675",
+      "votes": 6,
+      "tag": "Old hood"
+    },
+    {
+      "epoch": 1606507636811,
+      "latitude": 37.341410066708,
+      "longitude": -121.84345299747,
+      "uid": "n_ba6cb05529c4a35c0c6629ede347ea7d_37.341410066708_-121.84345299747",
+      "votes": 6,
+      "tag": "East Side San Jose"
+    },
+    {
+      "epoch": 1586710307032,
+      "latitude": 37.296214099572,
+      "longitude": -122.07939325951,
+      "uid": "n_5165dece6a3161032783069d9e9fde56_37.296214099572_-122.07939325951",
+      "votes": 5,
+      "tag": "Where Cupertino teens go to drink"
+    },
+    {
+      "epoch": 1631229956927,
+      "latitude": 37.445453762422,
+      "longitude": -122.01182855543,
+      "uid": "n_7c83f09ee3d69846918f6b4bad4d8760_37.445453762422_-122.01182855543",
+      "votes": 5,
+      "tag": "pools of mysterious colorful liquid"
+    },
+    {
+      "epoch": 1504678179974,
+      "latitude": 37.5499685373,
+      "longitude": -121.99303840847,
+      "uid": "n_56473e1b43595a117ecb3ba81b4d4a9c_37.5499685373_-121.99303840847",
+      "votes": 5,
+      "tag": "Little India"
+    },
+    {
+      "epoch": 1579401809201,
+      "latitude": 37.318409298488,
+      "longitude": -121.9515772711,
+      "uid": "n_e8b466a261f1dab5c9cee808478960fe_37.318409298488_-121.9515772711",
+      "votes": 5,
+      "tag": "Haunted house"
+    },
+    {
+      "epoch": 1640219078242,
+      "latitude": 37.407290678907,
+      "longitude": -121.94033935758,
+      "uid": "n_a0218ffd357509a20fbc0a37f6172c47_37.407290678907_-121.94033935758",
+      "votes": 5,
+      "tag": "indian grand parents"
+    },
+    {
+      "epoch": 1499665186080,
+      "latitude": 37.364034984551,
+      "longitude": -121.93230816069,
+      "uid": "n_1fad9e969aacdd7e196ec24727ba5614_37.364034984551_-121.93230816069",
+      "votes": 5,
+      "tag": "air vroomers"
+    },
+    {
+      "epoch": 1635992104503,
+      "latitude": 37.411838294329,
+      "longitude": -121.898617774,
+      "uid": "n_19b79b0ab4ad8cff3bf8216c339bd581_37.411838294329_-121.898617774",
+      "votes": 5,
+      "tag": "Apartments on Apartments"
+    },
+    {
+      "epoch": 1537022210272,
+      "latitude": 37.339169517117,
+      "longitude": -121.88457104595,
+      "uid": "n_47717bfda8f274d42b92b03c30068f48_37.339169517117_-121.88457104595",
+      "votes": 5,
+      "tag": "Gets weird"
+    },
+    {
+      "epoch": 1572476115533,
+      "latitude": 37.336809312827,
+      "longitude": -121.8814876197,
+      "uid": "n_5897aeb702779f344e75686c8367810a_37.336809312827_-121.8814876197",
+      "votes": 5,
+      "tag": "Indian engineering stronghold"
+    },
+    {
+      "epoch": 1606508416901,
+      "latitude": 37.299490819427,
+      "longitude": -121.82400549186,
+      "uid": "n_ba6cb05529c4a35c0c6629ede347ea7d_37.299490819427_-121.82400549186",
+      "votes": 5,
+      "tag": "Hood DENNY\u2019$"
+    },
+    {
+      "epoch": 1579401780327,
+      "latitude": 37.236849393944,
+      "longitude": -121.78974242242,
+      "uid": "n_e8b466a261f1dab5c9cee808478960fe_37.236849393944_-121.78974242242",
+      "votes": 5,
+      "tag": "Light rail"
+    },
+    {
+      "epoch": 1606080156454,
+      "latitude": 37.427077169404,
+      "longitude": -122.13350460132,
+      "uid": "n_ad8879bfa1d3983caf18b4b8f489b337_37.427077169404_-122.13350460132",
+      "votes": 4,
+      "tag": "more waymo cars than people"
+    },
+    {
+      "epoch": 1634573932101,
+      "latitude": 37.433164369668,
+      "longitude": -122.12784435951,
+      "uid": "n_7da3c78124e8f64ac6eee27889085c0f_37.433164369668_-122.12784435951",
+      "votes": 4,
+      "tag": "rich delinquents"
+    },
+    {
+      "epoch": 1499753157708,
+      "latitude": 37.366691170606,
+      "longitude": -122.09916570129,
+      "uid": "n_5a4cd643fb24cebc696b22856397905d_37.366691170606_-122.09916570129",
+      "votes": 4,
+      "tag": "more teslas here than people"
+    },
+    {
+      "epoch": 1499636524344,
+      "latitude": 37.41449495968,
+      "longitude": -122.07888820114,
+      "uid": "n_8e17b22d374f93b22a1ae5170a46bc10_37.41449495968_-122.07888820114",
+      "votes": 4,
+      "tag": "computer history museum is awesome"
+    },
+    {
+      "epoch": 1536460310381,
+      "latitude": 37.3793843049,
+      "longitude": -122.07219357992,
+      "uid": "n_effe76fb73c894b61350506ef0dbd192_37.3793843049_-122.07219357992",
+      "votes": 4,
+      "tag": "Parking Lot from Hell "
+    },
+    {
+      "epoch": 1610999022413,
+      "latitude": 37.522653753525,
+      "longitude": -122.05105269833,
+      "uid": "n_d9d0f0ca014d20d655a51f14e467201a_37.522653753525_-122.05105269833",
+      "votes": 4,
+      "tag": "New Chinese & Indians"
+    },
+    {
+      "epoch": 1627191168979,
+      "latitude": 37.587931748408,
+      "longitude": -122.04661674232,
+      "uid": "n_ad6d8f12daf2f528d2183c53c0cd87d1_37.587931748408_-122.04661674232",
+      "votes": 4,
+      "tag": "Broke boys who do fireworks every night"
+    },
+    {
+      "epoch": 1499636171255,
+      "latitude": 37.327166968403,
+      "longitude": -122.01545932236,
+      "uid": "n_8e17b22d374f93b22a1ae5170a46bc10_37.327166968403_-122.01545932236",
+      "votes": 4,
+      "tag": "super dead mall"
+    },
+    {
+      "epoch": 1638170266477,
+      "latitude": 37.263850583729,
+      "longitude": -122.01143774088,
+      "uid": "n_4780f8c2c643fc698b35d0bf149dc79c_37.263850583729_-122.01143774088",
+      "votes": 4,
+      "tag": "Don't trust counselors making urGED plan"
+    },
+    {
+      "epoch": 1602979339444,
+      "latitude": 37.562327132653,
+      "longitude": -122.00332931656,
+      "uid": "n_f30681eee986100598748f7cb73e5edb_37.562327132653_-122.00332931656",
+      "votes": 4,
+      "tag": "Man who yells"
+    },
+    {
+      "epoch": 1506272685120,
+      "latitude": 37.356852319741,
+      "longitude": -121.99142741675,
+      "uid": "n_b3da5488960f6e8fa181fa888b9f3a63_37.356852319741_-121.99142741675",
+      "votes": 4,
+      "tag": "Korean Food"
+    },
+    {
+      "epoch": 1635993029676,
+      "latitude": 37.451144104307,
+      "longitude": -121.9716711287,
+      "uid": "n_5804147e08681564df9181fb498c0e15_37.451144104307_-121.9716711287",
+      "votes": 4,
+      "tag": "\"The Prostate of the Bay\""
+    },
+    {
+      "epoch": 1612223967581,
+      "latitude": 37.323050792216,
+      "longitude": -121.96967231239,
+      "uid": "n_d45ce0161052bc116524bdc8b9171d63_37.323050792216_-121.96967231239",
+      "votes": 4,
+      "tag": "Best Taco Truck"
+    },
+    {
+      "epoch": 1590456838635,
+      "latitude": 37.290995467219,
+      "longitude": -121.95087413888,
+      "uid": "n_11105f6cd4eb2e2b7452ee9fba8ff95a_37.290995467219_-121.95087413888",
+      "votes": 4,
+      "tag": "Priced out Normal People"
+    },
+    {
+      "epoch": 1636151234175,
+      "latitude": 37.350894395251,
+      "longitude": -121.93250616978,
+      "uid": "n_dd856a4ac00b268c6b5a5d0a82f2809a_37.350894395251_-121.93250616978",
+      "votes": 4,
+      "tag": "Rich Indian students"
+    },
+    {
+      "epoch": 1594754528167,
+      "latitude": 37.355411690492,
+      "longitude": -121.90112251662,
+      "uid": "n_dde3414b9f2012e4e608be9eabfb3711_37.355411690492_-121.90112251662",
+      "votes": 4,
+      "tag": "Bad boys house (Jail)"
+    },
+    {
+      "epoch": 1594754400523,
+      "latitude": 37.511153695782,
+      "longitude": -121.88559150553,
+      "uid": "n_dde3414b9f2012e4e608be9eabfb3711_37.511153695782_-121.88559150553",
+      "votes": 4,
+      "tag": "Climbers wonnabes"
+    },
+    {
+      "epoch": 1572243362300,
+      "latitude": 37.298788460417,
+      "longitude": -121.86950948635,
+      "uid": "n_2c9eaef26ebba4fdbb2b83ced01579c1_37.298788460417_-121.86950948635",
+      "votes": 4,
+      "tag": "Nice views"
+    },
+    {
+      "epoch": 1635895780212,
+      "latitude": 37.330840756454,
+      "longitude": -121.81250641249,
+      "uid": "n_35cdb9fe662087a9663943cc5c0fab44_37.330840756454_-121.81250641249",
+      "votes": 4,
+      "tag": "Ricerville"
+    },
+    {
+      "epoch": 1567870482062,
+      "latitude": 37.330036219983,
+      "longitude": -121.80721946408,
+      "uid": "n_4da611f032358af8a29ff46011d650ac_37.330036219983_-121.80721946408",
+      "votes": 4,
+      "tag": "Old rich = paid off houses"
+    },
+    {
+      "epoch": 1606508830131,
+      "latitude": 37.202767018695,
+      "longitude": -121.73707643314,
+      "uid": "n_ba6cb05529c4a35c0c6629ede347ea7d_37.202767018695_-121.73707643314",
+      "votes": 4,
+      "tag": "Deep Southern San Jose "
+    },
+    {
+      "epoch": 1632800187660,
+      "latitude": 37.125437181584,
+      "longitude": -122.11930423174,
+      "uid": "n_8a755828d225a1ca23806513d1dcbb94_37.125437181584_-122.11930423174",
+      "votes": 3,
+      "tag": "Da smoke spot"
+    },
+    {
+      "epoch": 1506231223250,
+      "latitude": 37.422578237355,
+      "longitude": -122.08846862043,
+      "uid": "n_dfb8af7522263a5fa3cc069c3b7ad7b5_37.422578237355_-122.08846862043",
+      "votes": 3,
+      "tag": "Now Do Evil   "
+    },
+    {
+      "epoch": 1635892583231,
+      "latitude": 37.345156264514,
+      "longitude": -122.05110876307,
+      "uid": "n_51c27c8dc25e5594ded41265101d86a1_37.345156264514_-122.05110876307",
+      "votes": 3,
+      "tag": "Do you expect anything to happen here?"
+    },
+    {
+      "epoch": 1638063901798,
+      "latitude": 37.30185543485,
+      "longitude": -122.02452857313,
+      "uid": "n_d941194ec48bc5de4581166d3ce0f4df_37.30185543485_-122.02452857313",
+      "votes": 3,
+      "tag": "hood park "
+    },
+    {
+      "epoch": 1611200137950,
+      "latitude": 37.336424639444,
+      "longitude": -122.01854641533,
+      "uid": "n_226f64ec7ce8f4abb5a4ea1674961df9_37.336424639444_-122.01854641533",
+      "votes": 3,
+      "tag": "Lil Taiwan"
+    },
+    {
+      "epoch": 1611199988904,
+      "latitude": 37.324391818502,
+      "longitude": -122.0145538057,
+      "uid": "n_226f64ec7ce8f4abb5a4ea1674961df9_37.324391818502_-122.0145538057",
+      "votes": 3,
+      "tag": "wanna be santana row"
+    },
+    {
+      "epoch": 1634452338201,
+      "latitude": 37.42711034594,
+      "longitude": -122.01279632466,
+      "uid": "n_7da3c78124e8f64ac6eee27889085c0f_37.42711034594_-122.01279632466",
+      "votes": 3,
+      "tag": "smells like poo poo"
+    },
+    {
+      "epoch": 1594754427918,
+      "latitude": 37.432245545499,
+      "longitude": -121.99971763816,
+      "uid": "n_dde3414b9f2012e4e608be9eabfb3711_37.432245545499_-121.99971763816",
+      "votes": 3,
+      "tag": "Stinky lands"
+    },
+    {
+      "epoch": 1643763881417,
+      "latitude": 37.321214895458,
+      "longitude": -121.98623243498,
+      "uid": "n_7bbe7a77cf61df091eb9c561e5eeeb96_37.321214895458_-121.98623243498",
+      "votes": 3,
+      "tag": "Car break-ins almost every"
+    },
+    {
+      "epoch": 1633496998606,
+      "latitude": 37.393361137205,
+      "longitude": -121.97177937899,
+      "uid": "n_84f38bf7c443d6d8d25392959bca2cc4_37.393361137205_-121.97177937899",
+      "votes": 3,
+      "tag": "wheeeeeeeee"
+    },
+    {
+      "epoch": 1551483677923,
+      "latitude": 37.376622806904,
+      "longitude": -121.92359633455,
+      "uid": "n_10a5dc5f2a1a646f3ae0513d947d3070_37.376622806904_-121.92359633455",
+      "votes": 3,
+      "tag": "PayPal HQ"
+    },
+    {
+      "epoch": 1611335833568,
+      "latitude": 37.334420831776,
+      "longitude": -121.87863077465,
+      "uid": "n_85543cb4b87bf535838059c536101876_37.334420831776_-121.87863077465",
+      "votes": 3,
+      "tag": "Spartans"
+    },
+    {
+      "epoch": 1533672666831,
+      "latitude": 37.340189836308,
+      "longitude": -121.87692691329,
+      "uid": "n_a37f3d7db553b1f73e343490840f9508_37.340189836308_-121.87692691329",
+      "votes": 3,
+      "tag": "Quaint bungalows"
+    },
+    {
+      "epoch": 1606508637759,
+      "latitude": 37.31367010138,
+      "longitude": -121.87030538282,
+      "uid": "n_ba6cb05529c4a35c0c6629ede347ea7d_37.31367010138_-121.87030538282",
+      "votes": 3,
+      "tag": "Drive Thru Pop"
+    },
+    {
+      "epoch": 1632630779553,
+      "latitude": 37.327461818454,
+      "longitude": -121.86414361696,
+      "uid": "n_fde3767e6365760d8f7f07b8b46fd642_37.327461818454_-121.86414361696",
+      "votes": 3,
+      "tag": "The Jungle "
+    },
+    {
+      "epoch": 1635909356795,
+      "latitude": 37.356869383682,
+      "longitude": -121.85884501077,
+      "uid": "n_2dde279cabb4a35dd42f64cb53e7e7f2_37.356869383682_-121.85884501077",
+      "votes": 3,
+      "tag": "Scooters & bikes"
+    },
+    {
+      "epoch": 1591302994521,
+      "latitude": 37.363589686699,
+      "longitude": -121.85585870559,
+      "uid": "n_4820e0cfe09d1df3af20fdd034bb003d_37.363589686699_-121.85585870559",
+      "votes": 3,
+      "tag": "good food \ud83d\udd25"
+    },
+    {
+      "epoch": 1606507973696,
+      "latitude": 37.281323156494,
+      "longitude": -121.83241940308,
+      "uid": "n_ba6cb05529c4a35c0c6629ede347ea7d_37.281323156494_-121.83241940308",
+      "votes": 3,
+      "tag": "Marina Foods "
+    },
+    {
+      "epoch": 1640126273010,
+      "latitude": 37.38109986924,
+      "longitude": -121.83045315184,
+      "uid": "n_22f1428718084464b0d5a5b5789c818d_37.38109986924_-121.83045315184",
+      "votes": 3,
+      "tag": "Norteno hood"
+    },
+    {
+      "epoch": 1499626078609,
+      "latitude": 37.320072942753,
+      "longitude": -121.80881636887,
+      "uid": "n_8394189f0db26329735ee42857b4bdea_37.320072942753_-121.80881636887",
+      "votes": 3,
+      "tag": "Country Club Masacre"
+    },
+    {
+      "epoch": 1555812059725,
+      "latitude": 37.326181604095,
+      "longitude": -121.77274106267,
+      "uid": "n_5be2e741186e1f120c6924d2b3b94be5_37.326181604095_-121.77274106267",
+      "votes": 3,
+      "tag": "Nice area - sorroundings not so much"
+    },
+    {
+      "epoch": 1567830773608,
+      "latitude": 37.320109500213,
+      "longitude": -121.76449940384,
+      "uid": "n_d90b1e45bc6706e55b33d19c45b3f332_37.320109500213_-121.76449940384",
+      "votes": 3,
+      "tag": "Teslas"
+    },
+    {
+      "epoch": 1617766273174,
+      "latitude": 37.422047391144,
+      "longitude": -122.12865373651,
+      "uid": "n_4440877a9a44b78e3cb28477e5b45137_37.422047391144_-122.12865373651",
+      "votes": 2,
+      "tag": "very beautiful houses"
+    },
+    {
+      "epoch": 1499636606547,
+      "latitude": 37.456357881083,
+      "longitude": -122.11364962997,
+      "uid": "n_8e17b22d374f93b22a1ae5170a46bc10_37.456357881083_-122.11364962997",
+      "votes": 2,
+      "tag": "very special rich people land planes her"
+    },
+    {
+      "epoch": 1504312273560,
+      "latitude": 37.379264492622,
+      "longitude": -122.11105898605,
+      "uid": "n_a18486ebe1981b41466b52669f6dbbfd_37.379264492622_-122.11105898605",
+      "votes": 2,
+      "tag": "Glad I Moved"
+    },
+    {
+      "epoch": 1606079790239,
+      "latitude": 37.40199571664,
+      "longitude": -122.10573984513,
+      "uid": "n_ad8879bfa1d3983caf18b4b8f489b337_37.40199571664_-122.10573984513",
+      "votes": 2,
+      "tag": "secret tacos"
+    },
+    {
+      "epoch": 1645549678386,
+      "latitude": 37.403112963784,
+      "longitude": -122.09800419544,
+      "uid": "n_3df2101dbcc80f73758e996e99d7dded_37.403112963784_-122.09800419544",
+      "votes": 2,
+      "tag": "the hood"
+    },
+    {
+      "epoch": 1624413530474,
+      "latitude": 37.41857288859,
+      "longitude": -122.08279088976,
+      "uid": "n_d5b010a257e4c967d6aa6cdaaaa5110b_37.41857288859_-122.08279088976",
+      "votes": 2,
+      "tag": "Remember \"Don't be Evil'?"
+    },
+    {
+      "epoch": 1509303565388,
+      "latitude": 37.431736381391,
+      "longitude": -122.0825421002,
+      "uid": "n_27701ed95acfbc9377cfb64735fb20c8_37.431736381391_-122.0825421002",
+      "votes": 2,
+      "tag": "18 golf holes  1800 gopher holes"
+    },
+    {
+      "epoch": 1599020372971,
+      "latitude": 37.398526063216,
+      "longitude": -122.06237977146,
+      "uid": "n_235341ce0c66a9a9b7adbea2e800b394_37.398526063216_-122.06237977146",
+      "votes": 2,
+      "tag": "Indians and indians and indians"
+    },
+    {
+      "epoch": 1500618717465,
+      "latitude": 37.548337720958,
+      "longitude": -122.05969673189,
+      "uid": "n_95181177a8b952c9db097745a0bacb67_37.548337720958_-122.05969673189",
+      "votes": 2,
+      "tag": "42 students"
+    },
+    {
+      "epoch": 1504468470389,
+      "latitude": 37.305928766003,
+      "longitude": -122.05147367442,
+      "uid": "n_8d9ae5ffc277daa89e0240e06fe4605b_37.305928766003_-122.05147367442",
+      "votes": 2,
+      "tag": "Grades   Life"
+    },
+    {
+      "epoch": 1635891877614,
+      "latitude": 37.3953158419,
+      "longitude": -122.03317825435,
+      "uid": "n_51c27c8dc25e5594ded41265101d86a1_37.3953158419_-122.03317825435",
+      "votes": 2,
+      "tag": "Human Trafficking but also a Dennys"
+    },
+    {
+      "epoch": 1638063540087,
+      "latitude": 37.320305570802,
+      "longitude": -122.02897191622,
+      "uid": "n_d941194ec48bc5de4581166d3ce0f4df_37.320305570802_-122.02897191622",
+      "votes": 2,
+      "tag": "Cops 24/7"
+    },
+    {
+      "epoch": 1635891750848,
+      "latitude": 37.3879047815,
+      "longitude": -122.02483890968,
+      "uid": "n_51c27c8dc25e5594ded41265101d86a1_37.3879047815_-122.02483890968",
+      "votes": 2,
+      "tag": "Little Mexico"
+    },
+    {
+      "epoch": 1635892053066,
+      "latitude": 37.391678624425,
+      "longitude": -122.0190053354,
+      "uid": "n_51c27c8dc25e5594ded41265101d86a1_37.391678624425_-122.0190053354",
+      "votes": 2,
+      "tag": "Paisa-land"
+    },
+    {
+      "epoch": 1600754134314,
+      "latitude": 37.336313102236,
+      "longitude": -122.01560995177,
+      "uid": "n_c30f0d8a6e40fc4bda17175fc61d0018_37.336313102236_-122.01560995177",
+      "votes": 2,
+      "tag": "All Asians get Boba here every night"
+    },
+    {
+      "epoch": 1504547249623,
+      "latitude": 37.333088882229,
+      "longitude": -122.01174217591,
+      "uid": "n_6238f81b1a7c14b1555d7506f9a32b23_37.333088882229_-122.01174217591",
+      "votes": 2,
+      "tag": "Steve Jobs Theater"
+    },
+    {
+      "epoch": 1504472159573,
+      "latitude": 37.558837615675,
+      "longitude": -122.00639543953,
+      "uid": "n_95181177a8b952c9db097745a0bacb67_37.558837615675_-122.00639543953",
+      "votes": 2,
+      "tag": "Facebook employees looking to live cheap"
+    },
+    {
+      "epoch": 1635892068268,
+      "latitude": 37.388793490001,
+      "longitude": -122.00552866618,
+      "uid": "n_51c27c8dc25e5594ded41265101d86a1_37.388793490001_-122.00552866618",
+      "votes": 2,
+      "tag": "Little Philippines"
+    },
+    {
+      "epoch": 1638350853585,
+      "latitude": 37.227504690565,
+      "longitude": -122.00056621,
+      "uid": "n_1777afac3fccabc138d0608f488ec97d_37.227504690565_-122.00056621",
+      "votes": 2,
+      "tag": "Def the Woz's house or I'll eat an iPod"
+    },
+    {
+      "epoch": 1499636267968,
+      "latitude": 37.336516823864,
+      "longitude": -121.99889399948,
+      "uid": "n_8e17b22d374f93b22a1ae5170a46bc10_37.336516823864_-121.99889399948",
+      "votes": 2,
+      "tag": "go here if you're dying"
+    },
+    {
+      "epoch": 1499661506886,
+      "latitude": 37.401984359831,
+      "longitude": -121.97539784851,
+      "uid": "n_885417902f9fe02221fd0bfc11126bce_37.401984359831_-121.97539784851",
+      "votes": 2,
+      "tag": "No 49ers Fans Here"
+    },
+    {
+      "epoch": 1638256331657,
+      "latitude": 37.328050291933,
+      "longitude": -121.97301281947,
+      "uid": "n_b90e4ac6bb0187265f49fe25858563a4_37.328050291933_-121.97301281947",
+      "votes": 2,
+      "tag": "For some reason we got ducks"
+    },
+    {
+      "epoch": 1567622093206,
+      "latitude": 37.315461661526,
+      "longitude": -121.96154226702,
+      "uid": "n_2c8a915cf8ed3cc26773cf726b3daddd_37.315461661526_-121.96154226702",
+      "votes": 2,
+      "tag": "old people"
+    },
+    {
+      "epoch": 1638169671382,
+      "latitude": 37.313723056828,
+      "longitude": -121.95145064544,
+      "uid": "n_4780f8c2c643fc698b35d0bf149dc79c_37.313723056828_-121.95145064544",
+      "votes": 2,
+      "tag": "Rip Toys R Us"
+    },
+    {
+      "epoch": 1640218851686,
+      "latitude": 37.404759639182,
+      "longitude": -121.93872960534,
+      "uid": "n_a0218ffd357509a20fbc0a37f6172c47_37.404759639182_-121.93872960534",
+      "votes": 2,
+      "tag": "oranges in summer"
+    },
+    {
+      "epoch": 1504284695415,
+      "latitude": 37.507275842602,
+      "longitude": -121.92089579444,
+      "uid": "n_320a7c5d3c20190943a015240c2b84fe_37.507275842602_-121.92089579444",
+      "votes": 2,
+      "tag": "Rich Indians"
+    },
+    {
+      "epoch": 1617301529512,
+      "latitude": 37.338295006098,
+      "longitude": -121.91247962527,
+      "uid": "n_732633eccdc9111c3bf685ebaa60fc69_37.338295006098_-121.91247962527",
+      "votes": 2,
+      "tag": "sus old white men "
+    },
+    {
+      "epoch": 1635892015658,
+      "latitude": 37.308962169741,
+      "longitude": -121.89725022014,
+      "uid": "n_2ee328a6790456514fd7810b1e4659e8_37.308962169741_-121.89725022014",
+      "votes": 2,
+      "tag": "Rich people with Gentrified food\\"
+    },
+    {
+      "epoch": 1600645590238,
+      "latitude": 37.320342217513,
+      "longitude": -121.8941276371,
+      "uid": "n_682160f8935d5e2b83a14932c7557ee2_37.320342217513_-121.8941276371",
+      "votes": 2,
+      "tag": "Horseshoe"
+    },
+    {
+      "epoch": 1508826003713,
+      "latitude": 37.402928145938,
+      "longitude": -121.89140487434,
+      "uid": "n_79abb0c00450643a6ce1ea661f38f3ca_37.402928145938_-121.89140487434",
+      "votes": 2,
+      "tag": "New Vietnam"
+    },
+    {
+      "epoch": 1504389431731,
+      "latitude": 37.330117646271,
+      "longitude": -121.89017154727,
+      "uid": "n_c9ce295cf5558a6bb665b5c4bc6253ca_37.330117646271_-121.89017154727",
+      "votes": 2,
+      "tag": "Freaky Conventions"
+    },
+    {
+      "epoch": 1606507841238,
+      "latitude": 37.35073827617,
+      "longitude": -121.88322936104,
+      "uid": "n_ba6cb05529c4a35c0c6629ede347ea7d_37.35073827617_-121.88322936104",
+      "votes": 2,
+      "tag": "North Side San Jose"
+    },
+    {
+      "epoch": 1606508261523,
+      "latitude": 37.369900624933,
+      "longitude": -121.87425996962,
+      "uid": "n_ba6cb05529c4a35c0c6629ede347ea7d_37.369900624933_-121.87425996962",
+      "votes": 2,
+      "tag": "New Bart Station / SJ Flea Market"
+    },
+    {
+      "epoch": 1606508679781,
+      "latitude": 37.303438922956,
+      "longitude": -121.86531954784,
+      "uid": "n_ba6cb05529c4a35c0c6629ede347ea7d_37.303438922956_-121.86531954784",
+      "votes": 2,
+      "tag": "the plantation "
+    },
+    {
+      "epoch": 1567870757518,
+      "latitude": 37.354197696491,
+      "longitude": -121.8456336547,
+      "uid": "n_4da611f032358af8a29ff46011d650ac_37.354197696491_-121.8456336547",
+      "votes": 2,
+      "tag": "A lil ratchet"
+    },
+    {
+      "epoch": 1567830753548,
+      "latitude": 37.326307182119,
+      "longitude": -121.80430658437,
+      "uid": "n_d90b1e45bc6706e55b33d19c45b3f332_37.326307182119_-121.80430658437",
+      "votes": 2,
+      "tag": "Teslas"
+    },
+    {
+      "epoch": 1567830851650,
+      "latitude": 37.31498316771,
+      "longitude": -121.77297610513,
+      "uid": "n_d90b1e45bc6706e55b33d19c45b3f332_37.31498316771_-121.77297610513",
+      "votes": 2,
+      "tag": "Teslas"
+    },
+    {
+      "epoch": 1605637840304,
+      "latitude": 37.121018219575,
+      "longitude": -121.6505155301,
+      "uid": "n_4d3d1e116ecfdd8024f9bbc4166e0aa7_37.121018219575_-121.6505155301",
+      "votes": 2,
+      "tag": "Village boys"
+    },
+    {
+      "epoch": 1637612549433,
+      "latitude": 37.149227231002,
+      "longitude": -121.63681407092,
+      "uid": "n_3b8f26ea606e2849e29ca2b2b061c2d6_37.149227231002_-121.63681407092",
+      "votes": 2,
+      "tag": "A teacher OD here (lived)"
+    },
+    {
+      "epoch": 1617986953887,
+      "latitude": 37.504556903905,
+      "longitude": -122.12035056556,
+      "uid": "n_a1254ccf07308bdb45911df3026bfbba_37.504556903905_-122.12035056556",
+      "votes": 1,
+      "tag": "Bridge to plebeian poors"
+    },
+    {
+      "epoch": 1499752700381,
+      "latitude": 37.461280389198,
+      "longitude": -122.11779096069,
+      "uid": "n_5a4cd643fb24cebc696b22856397905d_37.461280389198_-122.11779096069",
+      "votes": 1,
+      "tag": "VCs flying up from LA land here"
+    },
+    {
+      "epoch": 1570211524735,
+      "latitude": 37.451072261261,
+      "longitude": -122.11166997708,
+      "uid": "n_74c528e0f57670ee453395e1ac3288e6_37.451072261261_-122.11166997708",
+      "votes": 1,
+      "tag": "Offices"
+    },
+    {
+      "epoch": 1632652999553,
+      "latitude": 37.237385186532,
+      "longitude": -122.08726844994,
+      "uid": "n_85124c6ff4f81bb0ef31224af167227a_37.237385186532_-122.08726844994",
+      "votes": 1,
+      "tag": "people here lie about hikes there bad "
+    },
+    {
+      "epoch": 1504312445335,
+      "latitude": 37.426822384881,
+      "longitude": -122.08523902853,
+      "uid": "n_a18486ebe1981b41466b52669f6dbbfd_37.426822384881_-122.08523902853",
+      "votes": 1,
+      "tag": "This place is a literal dump "
+    },
+    {
+      "epoch": 1499636041788,
+      "latitude": 37.427344272336,
+      "longitude": -122.08135583344,
+      "uid": "n_8e17b22d374f93b22a1ae5170a46bc10_37.427344272336_-122.08135583344",
+      "votes": 1,
+      "tag": "concerts"
+    },
+    {
+      "epoch": 1571205352694,
+      "latitude": 37.392975600894,
+      "longitude": -122.08127367844,
+      "uid": "n_cc00e5e2410a81cb14d9a2bd96fb87bf_37.392975600894_-122.08127367844",
+      "votes": 1,
+      "tag": "Bougie-fying Downtown"
+    },
+    {
+      "epoch": 1605541139440,
+      "latitude": 37.535585981041,
+      "longitude": -122.07540124881,
+      "uid": "n_f084ddabaef7bd308b80565e9d7cf1e4_37.535585981041_-122.07540124881",
+      "votes": 1,
+      "tag": "Subsidizing the Bay Bridge"
+    },
+    {
+      "epoch": 1635896869656,
+      "latitude": 37.537441229694,
+      "longitude": -122.07526457985,
+      "uid": "n_2ad38f7326eba19faffeb270938eb25e_37.537441229694_-122.07526457985",
+      "votes": 1,
+      "tag": "Windy af"
+    },
+    {
+      "epoch": 1600208972053,
+      "latitude": 37.417570357714,
+      "longitude": -122.07396611072,
+      "uid": "n_6b35d163a86d970d44b4921b4cadb785_37.417570357714_-122.07396611072",
+      "votes": 1,
+      "tag": "Researching new ways to oppress you"
+    },
+    {
+      "epoch": 1499636002970,
+      "latitude": 37.409586417501,
+      "longitude": -122.06543424072,
+      "uid": "n_8e17b22d374f93b22a1ae5170a46bc10_37.409586417501_-122.06543424072",
+      "votes": 1,
+      "tag": "rocket science"
+    },
+    {
+      "epoch": 1632445644150,
+      "latitude": 37.327377862545,
+      "longitude": -122.06378149266,
+      "uid": "n_56e7f2a8039776d831dddd535626a29a_37.327377862545_-122.06378149266",
+      "votes": 1,
+      "tag": "Secret Dog Park"
+    },
+    {
+      "epoch": 1596096532402,
+      "latitude": 37.375870655893,
+      "longitude": -122.05655206075,
+      "uid": "n_88021e4da222d38c8996fc895b87dd44_37.375870655893_-122.05655206075",
+      "votes": 1,
+      "tag": "So Desi! \"Just like India\""
+    },
+    {
+      "epoch": 1635922290055,
+      "latitude": 37.518115918074,
+      "longitude": -122.05485118805,
+      "uid": "n_5330e79a57b2c24093edc1651d5a4d85_37.518115918074_-122.05485118805",
+      "votes": 1,
+      "tag": "New gay neighborhood "
+    },
+    {
+      "epoch": 1499637104759,
+      "latitude": 37.41310594306,
+      "longitude": -122.05468394699,
+      "uid": "n_8e17b22d374f93b22a1ae5170a46bc10_37.41310594306_-122.05468394699",
+      "votes": 1,
+      "tag": "Hangar 1"
+    },
+    {
+      "epoch": 1507668626170,
+      "latitude": 37.331394747784,
+      "longitude": -122.05247877817,
+      "uid": "n_3d8eeaa7210b0de5606d0d642897a535_37.331394747784_-122.05247877817",
+      "votes": 1,
+      "tag": "Chindia"
+    },
+    {
+      "epoch": 1631858239050,
+      "latitude": 37.569288765511,
+      "longitude": -122.05089772265,
+      "uid": "n_ccaee1169392be486511de86c2849204_37.569288765511_-122.05089772265",
+      "votes": 1,
+      "tag": "Facebook overspill"
+    },
+    {
+      "epoch": 1635922350416,
+      "latitude": 37.526566133524,
+      "longitude": -122.04344567454,
+      "uid": "n_5330e79a57b2c24093edc1651d5a4d85_37.526566133524_-122.04344567454",
+      "votes": 1,
+      "tag": "The HOOD westend "
+    },
+    {
+      "epoch": 1555811706070,
+      "latitude": 37.530589297632,
+      "longitude": -122.03901334917,
+      "uid": "n_5be2e741186e1f120c6924d2b3b94be5_37.530589297632_-122.03901334917",
+      "votes": 1,
+      "tag": "MexicanTown"
+    },
+    {
+      "epoch": 1635922611320,
+      "latitude": 37.524681349019,
+      "longitude": -122.03876019755,
+      "uid": "n_5330e79a57b2c24093edc1651d5a4d85_37.524681349019_-122.03876019755",
+      "votes": 1,
+      "tag": "YNL territory "
+    },
+    {
+      "epoch": 1635964237942,
+      "latitude": 37.554213792361,
+      "longitude": -122.03787472878,
+      "uid": "n_c3ae47f4cbc54d14a5c14b8d2d4a1ee7_37.554213792361_-122.03787472878",
+      "votes": 1,
+      "tag": "Rich People"
+    },
+    {
+      "epoch": 1615550691006,
+      "latitude": 37.368423767837,
+      "longitude": -122.03681011402,
+      "uid": "n_8ffa5be092f0269790110aef152b8b83_37.368423767837_-122.03681011402",
+      "votes": 1,
+      "tag": "parking nightmare"
+    },
+    {
+      "epoch": 1519160680958,
+      "latitude": 37.325464562857,
+      "longitude": -122.03600374341,
+      "uid": "n_10c492d957afe8be25a5c4f147741961_37.325464562857_-122.03600374341",
+      "votes": 1,
+      "tag": "Cuperchino"
+    },
+    {
+      "epoch": 1632863567020,
+      "latitude": 37.517819803927,
+      "longitude": -122.0352811155,
+      "uid": "n_36d4a1dd190f1d5c5ed0f1a62ce66879_37.517819803927_-122.0352811155",
+      "votes": 1,
+      "tag": "Mountains of Salt"
+    },
+    {
+      "epoch": 1504278758656,
+      "latitude": 37.305927248517,
+      "longitude": -122.03307348518,
+      "uid": "n_3d1f06b5c5348fcb974defe99074a51b_37.305927248517_-122.03307348518",
+      "votes": 1,
+      "tag": "Horrible  horrible drivers"
+    },
+    {
+      "epoch": 1615550030517,
+      "latitude": 37.375109498833,
+      "longitude": -122.03251455554,
+      "uid": "n_8ffa5be092f0269790110aef152b8b83_37.375109498833_-122.03251455554",
+      "votes": 1,
+      "tag": "Take your tinder date on dinner/walk "
+    },
+    {
+      "epoch": 1578998234281,
+      "latitude": 37.319003124493,
+      "longitude": -122.03010111785,
+      "uid": "n_4c124dc94e77e2aa55307d2e916a0c5b_37.319003124493_-122.03010111785",
+      "votes": 1,
+      "tag": "Taiwanese ppl but call them chinese lol"
+    },
+    {
+      "epoch": 1636769636741,
+      "latitude": 37.565241129011,
+      "longitude": -122.0150847795,
+      "uid": "n_8e4ce69481cf39c1e858d3e958ad4284_37.565241129011_-122.0150847795",
+      "votes": 1,
+      "tag": "People doing donuts at midnight"
+    },
+    {
+      "epoch": 1635891949358,
+      "latitude": 37.403043501091,
+      "longitude": -122.01388515169,
+      "uid": "n_51c27c8dc25e5594ded41265101d86a1_37.403043501091_-122.01388515169",
+      "votes": 1,
+      "tag": "Little Samoa"
+    },
+    {
+      "epoch": 1632117945226,
+      "latitude": 37.09646618337,
+      "longitude": -122.01283556574,
+      "uid": "n_e31f1b4a5e39d6f10fb4809139f4e759_37.09646618337_-122.01283556574",
+      "votes": 1,
+      "tag": "Super Nice Houses"
+    },
+    {
+      "epoch": 1634878286286,
+      "latitude": 37.263407042969,
+      "longitude": -122.01052884724,
+      "uid": "n_e7660cbefdd9a6a01dc2e7b0e77c3505_37.263407042969_-122.01052884724",
+      "votes": 1,
+      "tag": "9 Year College Plan For Dumb Rich People"
+    },
+    {
+      "epoch": 1506530898429,
+      "latitude": 37.33507885499,
+      "longitude": -122.00974056192,
+      "uid": "n_5c4487613f8789108a5a70ef491ea0b1_37.33507885499_-122.00974056192",
+      "votes": 1,
+      "tag": "Apple Mother Ship"
+    },
+    {
+      "epoch": 1628375059015,
+      "latitude": 37.528203234571,
+      "longitude": -122.00828248403,
+      "uid": "n_299d4d939001a9e13d8212dfc155924a_37.528203234571_-122.00828248403",
+      "votes": 1,
+      "tag": "Broke Saggers"
+    },
+    {
+      "epoch": 1504468443617,
+      "latitude": 37.242363015369,
+      "longitude": -122.00435835376,
+      "uid": "n_8d9ae5ffc277daa89e0240e06fe4605b_37.242363015369_-122.00435835376",
+      "votes": 1,
+      "tag": "Billionaires"
+    },
+    {
+      "epoch": 1632863505446,
+      "latitude": 37.526786281113,
+      "longitude": -122.00336568004,
+      "uid": "n_36d4a1dd190f1d5c5ed0f1a62ce66879_37.526786281113_-122.00336568004",
+      "votes": 1,
+      "tag": "Dying Mall"
+    },
+    {
+      "epoch": 1609052585408,
+      "latitude": 37.361049056712,
+      "longitude": -122.00127617131,
+      "uid": "n_4f7ab078d7e14d87e7c026c414978a72_37.361049056712_-122.00127617131",
+      "votes": 1,
+      "tag": "families in overpriced, old townhouses"
+    },
+    {
+      "epoch": 1551687372550,
+      "latitude": 37.577835022072,
+      "longitude": -121.98155825255,
+      "uid": "n_d529bfdd814305c16f481b74ee902277_37.577835022072_-121.98155825255",
+      "votes": 1,
+      "tag": "Charlie Chaplin"
+    },
+    {
+      "epoch": 1504468651986,
+      "latitude": 37.228711253884,
+      "longitude": -121.97856054911,
+      "uid": "n_8d9ae5ffc277daa89e0240e06fe4605b_37.228711253884_-121.97856054911",
+      "votes": 1,
+      "tag": "Super Rich White People"
+    },
+    {
+      "epoch": 1633507809767,
+      "latitude": 37.50030239705,
+      "longitude": -121.97502912112,
+      "uid": "n_ea47a5fcde06c072e02bd4a49670b7b8_37.50030239705_-121.97502912112",
+      "votes": 1,
+      "tag": "Rich Asian plaza"
+    },
+    {
+      "epoch": 1614972077429,
+      "latitude": 37.378810798219,
+      "longitude": -121.97465024989,
+      "uid": "n_6b7138861b5d8719e5cba469496e05b7_37.378810798219_-121.97465024989",
+      "votes": 1,
+      "tag": "Expensive housing"
+    },
+    {
+      "epoch": 1632863769681,
+      "latitude": 37.502340316927,
+      "longitude": -121.97446016168,
+      "uid": "n_36d4a1dd190f1d5c5ed0f1a62ce66879_37.502340316927_-121.97446016168",
+      "votes": 1,
+      "tag": "Indian and Asian Costco"
+    },
+    {
+      "epoch": 1499622750967,
+      "latitude": 37.517193667716,
+      "longitude": -121.97342374268,
+      "uid": "n_fc427c11fb7c4bd141c22102ef11b5f9_37.517193667716_-121.97342374268",
+      "votes": 1,
+      "tag": "Little India"
+    },
+    {
+      "epoch": 1646568541855,
+      "latitude": 37.338739876572,
+      "longitude": -121.97333013891,
+      "uid": "n_9386dd4a1ba010a9cd04bfde2f413300_37.338739876572_-121.97333013891",
+      "votes": 1,
+      "tag": "Donuts"
+    },
+    {
+      "epoch": 1506224577893,
+      "latitude": 37.258292594592,
+      "longitude": -121.96614094292,
+      "uid": "n_5ae38cea750e0a0a0d5b5ee3573b25e9_37.258292594592_-121.96614094292",
+      "votes": 1,
+      "tag": "Wannabe"
+    },
+    {
+      "epoch": 1506224640637,
+      "latitude": 37.259348208648,
+      "longitude": -121.96603780272,
+      "uid": "n_5ae38cea750e0a0a0d5b5ee3573b25e9_37.259348208648_-121.96603780272",
+      "votes": 1,
+      "tag": "Wannabe"
+    },
+    {
+      "epoch": 1518545192769,
+      "latitude": 37.232213860943,
+      "longitude": -121.96515392284,
+      "uid": "n_95eeafcc9daf1019e5524ae0cf75f32e_37.232213860943_-121.96515392284",
+      "votes": 1,
+      "tag": "Rich Latinos"
+    },
+    {
+      "epoch": 1636998621571,
+      "latitude": 37.297663841433,
+      "longitude": -121.9541538338,
+      "uid": "n_8d90e06d4ded072a4d967abf4732fb25_37.297663841433_-121.9541538338",
+      "votes": 1,
+      "tag": "white crackers n tha plug spot"
+    },
+    {
+      "epoch": 1519755962622,
+      "latitude": 37.321500799817,
+      "longitude": -121.947850541,
+      "uid": "n_b34d4e3412576bee646aa02531208b95_37.321500799817_-121.947850541",
+      "votes": 1,
+      "tag": "riche people hangout"
+    },
+    {
+      "epoch": 1519755931436,
+      "latitude": 37.325901713259,
+      "longitude": -121.94620524137,
+      "uid": "n_b34d4e3412576bee646aa02531208b95_37.325901713259_-121.94620524137",
+      "votes": 1,
+      "tag": "best mall "
+    },
+    {
+      "epoch": 1645852703230,
+      "latitude": 37.323482092913,
+      "longitude": -121.93543435475,
+      "uid": "n_f48fecfe062c3d592009f4cd76a64aae_37.323482092913_-121.93543435475",
+      "votes": 1,
+      "tag": "flavortown falafels"
+    },
+    {
+      "epoch": 1506359984383,
+      "latitude": 37.342436769693,
+      "longitude": -121.91790490684,
+      "uid": "n_1a172121cbf91ab3dc21b1204408e427_37.342436769693_-121.91790490684",
+      "votes": 1,
+      "tag": "Google2 0"
+    },
+    {
+      "epoch": 1506198132712,
+      "latitude": 37.454170664078,
+      "longitude": -121.91689795299,
+      "uid": "n_1181c697be19ce3c9884f1251ca91cb0_37.454170664078_-121.91689795299",
+      "votes": 1,
+      "tag": "Indians with kids"
+    },
+    {
+      "epoch": 1504278879078,
+      "latitude": 37.325974041239,
+      "longitude": -121.90772517087,
+      "uid": "n_23f9471e3253ee6b438cc9bf0c0c4148_37.325974041239_-121.90772517087",
+      "votes": 1,
+      "tag": "Undiscovered paradise "
+    },
+    {
+      "epoch": 1504375259846,
+      "latitude": 37.290596809421,
+      "longitude": -121.90305702132,
+      "uid": "n_244fd226035c4929e5915ed7e3847fcc_37.290596809421_-121.90305702132",
+      "votes": 1,
+      "tag": "Mean Rich People"
+    },
+    {
+      "epoch": 1594754716895,
+      "latitude": 37.161948180341,
+      "longitude": -121.90042151231,
+      "uid": "n_dde3414b9f2012e4e608be9eabfb3711_37.161948180341_-121.90042151231",
+      "votes": 1,
+      "tag": "Some military crap leftowers"
+    },
+    {
+      "epoch": 1606845657012,
+      "latitude": 37.33145946641,
+      "longitude": -121.89025364042,
+      "uid": "n_fbf2ae46ef01d2534f07d2ba6ee2227e_37.33145946641_-121.89025364042",
+      "votes": 1,
+      "tag": "the dome"
+    },
+    {
+      "epoch": 1627526484196,
+      "latitude": 37.360483583118,
+      "longitude": -121.88837950437,
+      "uid": "n_a01858747a16c9f45b813c379ac1bfb6_37.360483583118_-121.88837950437",
+      "votes": 1,
+      "tag": "mom homes"
+    },
+    {
+      "epoch": 1606509867622,
+      "latitude": 37.332448640867,
+      "longitude": -121.88496137359,
+      "uid": "n_ba6cb05529c4a35c0c6629ede347ea7d_37.332448640867_-121.88496137359",
+      "votes": 1,
+      "tag": "Ex - DOPE SPOT"
+    },
+    {
+      "epoch": 1537022061302,
+      "latitude": 37.332629265415,
+      "longitude": -121.88024778609,
+      "uid": "n_47717bfda8f274d42b92b03c30068f48_37.332629265415_-121.88024778609",
+      "votes": 1,
+      "tag": "No no zone"
+    },
+    {
+      "epoch": 1624208083029,
+      "latitude": 37.388438154796,
+      "longitude": -121.87454426386,
+      "uid": "n_3cbd8f1019839242f9cbf5957f49f6d3_37.388438154796_-121.87454426386",
+      "votes": 1,
+      "tag": "Nice basketball courts"
+    },
+    {
+      "epoch": 1635909167250,
+      "latitude": 37.344387873076,
+      "longitude": -121.87395232744,
+      "uid": "n_2dde279cabb4a35dd42f64cb53e7e7f2_37.344387873076_-121.87395232744",
+      "votes": 1,
+      "tag": "anyone wna go camping?"
+    },
+    {
+      "epoch": 1507595208744,
+      "latitude": 37.255149298586,
+      "longitude": -121.86762563985,
+      "uid": "n_d3fc06b7e709f9651bde3781db1a2abd_37.255149298586_-121.86762563985",
+      "votes": 1,
+      "tag": "Upscale Mall"
+    },
+    {
+      "epoch": 1641234114614,
+      "latitude": 37.362742664758,
+      "longitude": -121.86244864572,
+      "uid": "n_99511c5cff056ee2870715b91610f4df_37.362742664758_-121.86244864572",
+      "votes": 1,
+      "tag": "vll$ xiv"
+    },
+    {
+      "epoch": 1641234002612,
+      "latitude": 37.36378768611,
+      "longitude": -121.86234191252,
+      "uid": "n_99511c5cff056ee2870715b91610f4df_37.36378768611_-121.86234191252",
+      "votes": 1,
+      "tag": "c-dub "
+    },
+    {
+      "epoch": 1623960941565,
+      "latitude": 37.363025456761,
+      "longitude": -121.85935150934,
+      "uid": "n_e44cdab4930c3f871443893f686385b8_37.363025456761_-121.85935150934",
+      "votes": 1,
+      "tag": "fame and respect"
+    },
+    {
+      "epoch": 1619063509770,
+      "latitude": 37.340187172682,
+      "longitude": -121.8592812043,
+      "uid": "n_2cd47e4be8b2e7d0fb3debfe61bd6ca6_37.340187172682_-121.8592812043",
+      "votes": 1,
+      "tag": "Giant Litter Box"
+    },
+    {
+      "epoch": 1636849977813,
+      "latitude": 37.37907729721,
+      "longitude": -121.83983584308,
+      "uid": "n_8b0c2f1bc464cae8dad0b4effd18031f_37.37907729721_-121.83983584308",
+      "votes": 1,
+      "tag": "a lot of emo hood rats \ud83e\udd14"
+    },
+    {
+      "epoch": 1635912555596,
+      "latitude": 37.368830548906,
+      "longitude": -121.8382605866,
+      "uid": "n_2dde279cabb4a35dd42f64cb53e7e7f2_37.368830548906_-121.8382605866",
+      "votes": 1,
+      "tag": "Juvenile hall "
+    },
+    {
+      "epoch": 1506360097533,
+      "latitude": 37.370681777797,
+      "longitude": -121.83276086381,
+      "uid": "n_1a172121cbf91ab3dc21b1204408e427_37.370681777797_-121.83276086381",
+      "votes": 1,
+      "tag": "G House"
+    },
+    {
+      "epoch": 1638064669273,
+      "latitude": 37.282909767201,
+      "longitude": -121.81796645876,
+      "uid": "n_d941194ec48bc5de4581166d3ce0f4df_37.282909767201_-121.81796645876",
+      "votes": 1,
+      "tag": "drive-bys"
+    },
+    {
+      "epoch": 1567830739913,
+      "latitude": 37.325895558561,
+      "longitude": -121.78913670913,
+      "uid": "n_d90b1e45bc6706e55b33d19c45b3f332_37.325895558561_-121.78913670913",
+      "votes": 1,
+      "tag": "Teslas "
+    },
+    {
+      "epoch": 1635901016392,
+      "latitude": 37.579086637733,
+      "longitude": -122.03737478781,
+      "uid": "n_141bbf06172999421abf60c6f97dcd30_37.579086637733_-122.03737478781",
+      "votes": 0,
+      "tag": "Gentrified "
+    },
+    {
+      "epoch": 1587588308616,
+      "latitude": 37.376222512099,
+      "longitude": -122.03004975304,
+      "uid": "n_d16f6069a4593975e381b21766885e1f_37.376222512099_-122.03004975304",
+      "votes": 0,
+      "tag": "Wait I thought it was Dish N Dash"
+    },
+    {
+      "epoch": 1643763894737,
+      "latitude": 37.321645074075,
+      "longitude": -121.9852181776,
+      "uid": "n_7bbe7a77cf61df091eb9c561e5eeeb96_37.321645074075_-121.9852181776",
+      "votes": 0,
+      "tag": "Car break-ins almost every week"
+    },
+    {
+      "epoch": 1504547009571,
+      "latitude": 37.323320187217,
+      "longitude": -121.94924963986,
+      "uid": "n_c9ce295cf5558a6bb665b5c4bc6253ca_37.323320187217_-121.94924963986",
+      "votes": 0,
+      "tag": "Soul-dead Barbieville"
+    },
+    {
+      "epoch": 1645254129820,
+      "latitude": 37.320889797416,
+      "longitude": -121.94793359664,
+      "uid": "n_f089d25b43b320833509601bd26ccad0_37.320889797416_-121.94793359664",
+      "votes": 0,
+      "tag": "Cool lamborghinis"
+    },
+    {
+      "epoch": 1501211075015,
+      "latitude": 37.350779994586,
+      "longitude": -121.94224740726,
+      "uid": "n_6ad70c996f6eb77d3e0550f47356e225_37.350779994586_-121.94224740726",
+      "votes": 0,
+      "tag": "Rich White Kids"
+    },
+    {
+      "epoch": 1640330599077,
+      "latitude": 37.222744956952,
+      "longitude": -121.88535222644,
+      "uid": "n_7256a894be136b1e8a74b670d4d4cdf4_37.222744956952_-121.88535222644",
+      "votes": 0,
+      "tag": "Decent house can cost up to $4 million"
+    },
+    {
+      "epoch": 1635911993090,
+      "latitude": 37.349091461033,
+      "longitude": -121.8721646892,
+      "uid": "n_2dde279cabb4a35dd42f64cb53e7e7f2_37.349091461033_-121.8721646892",
+      "votes": 0,
+      "tag": "hell on earth"
+    },
+    {
+      "epoch": 1624208326889,
+      "latitude": 37.373399915473,
+      "longitude": -121.87173591914,
+      "uid": "n_3cbd8f1019839242f9cbf5957f49f6d3_37.373399915473_-121.87173591914",
+      "votes": 0,
+      "tag": "OG King Eggroll"
+    },
+    {
+      "epoch": 1635909841904,
+      "latitude": 37.351642004753,
+      "longitude": -121.84372321818,
+      "uid": "n_2dde279cabb4a35dd42f64cb53e7e7f2_37.351642004753_-121.84372321818",
+      "votes": 0,
+      "tag": "(homies only)"
+    },
+    {
+      "epoch": 1623194191820,
+      "latitude": 37.276106930231,
+      "longitude": -121.83709487017,
+      "uid": "n_346da73759feaa82a756f4f1adfcdefe_37.276106930231_-121.83709487017",
+      "votes": 0,
+      "tag": "wood hood"
+    },
+    {
+      "epoch": 1567877387993,
+      "latitude": 37.328958778921,
+      "longitude": -121.78833490439,
+      "uid": "n_a6fc16e2849990590b46ed02ccd8d514_37.328958778921_-121.78833490439",
+      "votes": 0,
+      "tag": "Teslas everywhere"
+    },
+    {
+      "epoch": 1567830765727,
+      "latitude": 37.3300800872,
+      "longitude": -121.77907178435,
+      "uid": "n_d90b1e45bc6706e55b33d19c45b3f332_37.3300800872_-121.77907178435",
+      "votes": 0,
+      "tag": "teslas"
+    },
+    {
+      "epoch": 1578998089285,
+      "latitude": 37.467583780288,
+      "longitude": -122.13359722595,
+      "uid": "n_4c124dc94e77e2aa55307d2e916a0c5b_37.467583780288_-122.13359722595",
+      "votes": -1,
+      "tag": "Crip City cuhs"
+    },
+    {
+      "epoch": 1607967206953,
+      "latitude": 37.433588530636,
+      "longitude": -122.13079412991,
+      "uid": "n_ff0bf46693ddd71c27edde288c7aad6a_37.433588530636_-122.13079412991",
+      "votes": -1,
+      "tag": "where all the rich kids hang out"
+    },
+    {
+      "epoch": 1632800252582,
+      "latitude": 37.125120046253,
+      "longitude": -122.12435977232,
+      "uid": "n_8a755828d225a1ca23806513d1dcbb94_37.125120046253_-122.12435977232",
+      "votes": -1,
+      "tag": "Don\u2019t work here they overwork u a lot "
+    },
+    {
+      "epoch": 1639669303783,
+      "latitude": 37.407970416551,
+      "longitude": -122.1156076303,
+      "uid": "n_a418a3d6e857295b5d40dd6a277b395b_37.407970416551_-122.1156076303",
+      "votes": -1,
+      "tag": "Growing concrete jungle"
+    },
+    {
+      "epoch": 1499489680509,
+      "latitude": 37.422641066231,
+      "longitude": -122.10371472778,
+      "uid": "n_2ef256a9b9b0704fec76929565567919_37.422641066231_-122.10371472778",
+      "votes": -1,
+      "tag": "Spooky skeletons"
+    },
+    {
+      "epoch": 1499620350602,
+      "latitude": 37.409541573446,
+      "longitude": -122.10175117746,
+      "uid": "n_279aeb84f0ba84e19bfe580dc2b00550_37.409541573446_-122.10175117746",
+      "votes": -1,
+      "tag": "Cheese"
+    },
+    {
+      "epoch": 1645549724808,
+      "latitude": 37.406421169414,
+      "longitude": -122.08710451109,
+      "uid": "n_3df2101dbcc80f73758e996e99d7dded_37.406421169414_-122.08710451109",
+      "votes": -1,
+      "tag": "Andrew got run over here lol"
+    },
+    {
+      "epoch": 1499236514716,
+      "latitude": 37.424012865199,
+      "longitude": -122.08618380966,
+      "uid": "n_ee1ec0b3a46f2f528c3a41e9001289b8_37.424012865199_-122.08618380966",
+      "votes": -1,
+      "tag": "Google"
+    },
+    {
+      "epoch": 1577817607316,
+      "latitude": 37.398887607127,
+      "longitude": -122.0831038475,
+      "uid": "n_5ca4db4b339e9f81511af4634cf7a3f9_37.398887607127_-122.0831038475",
+      "votes": -1,
+      "tag": "Amoral soyciopathic nerds"
+    },
+    {
+      "epoch": 1607413125336,
+      "latitude": 37.418627077569,
+      "longitude": -122.0827233151,
+      "uid": "n_e210e63f373670346793edb67081c383_37.418627077569_-122.0827233151",
+      "votes": -1,
+      "tag": "Interesting Google employees making too "
+    },
+    {
+      "epoch": 1631858396992,
+      "latitude": 37.568811635785,
+      "longitude": -122.08044638632,
+      "uid": "n_ccaee1169392be486511de86c2849204_37.568811635785_-122.08044638632",
+      "votes": -1,
+      "tag": "Carmel wannabes "
+    },
+    {
+      "epoch": 1504213831549,
+      "latitude": 37.392991280548,
+      "longitude": -122.08009904729,
+      "uid": "n_4260e2fc90d3f5f79741bb39a78484aa_37.392991280548_-122.08009904729",
+      "votes": -1,
+      "tag": "The one good cafe in town"
+    },
+    {
+      "epoch": 1506313828983,
+      "latitude": 37.393947940523,
+      "longitude": -122.07620283648,
+      "uid": "n_79c5e8cbca0a82a144cafa3c9f744342_37.393947940523_-122.07620283648",
+      "votes": -1,
+      "tag": "stupid motorized skateboards"
+    },
+    {
+      "epoch": 1601347289024,
+      "latitude": 37.431979615893,
+      "longitude": -122.06771004984,
+      "uid": "n_6b35d163a86d970d44b4921b4cadb785_37.431979615893_-122.06771004984",
+      "votes": -1,
+      "tag": "Rich People Sex Dungeon"
+    }
+  ]
+}
