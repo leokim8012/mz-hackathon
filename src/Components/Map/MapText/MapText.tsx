@@ -5,11 +5,13 @@ import { Icon } from '@woozdesign/icons';
 
 interface MapTextProps {
   text: string;
+
+  size?: number;
   votes?: number;
   randomRotation?: boolean;
 }
 
-const MapText: FC<MapTextProps> = ({ text, votes = 0, randomRotation = false }) => {
+const MapText: FC<MapTextProps> = ({ text, size = 4, votes = 0, randomRotation = false }) => {
   // Use useMemo to ensure the rotation value is consistent during re-renders of this instance
   const rotation = useMemo(() => {
     if (randomRotation) {
@@ -20,7 +22,7 @@ const MapText: FC<MapTextProps> = ({ text, votes = 0, randomRotation = false }) 
   }, [randomRotation]);
 
   const style = {
-    fontSize: `min(calc(var(--font-size-4) + ${votes}px), var(--font-size-12))`,
+    fontSize: `min(calc(var(--font-size-${size}) + ${votes}px), var(--font-size-12))`,
   };
   const wrapperStyle = {
     transform: `translate(-50%, -50%) rotate(${rotation}deg) `,

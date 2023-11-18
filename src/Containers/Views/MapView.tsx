@@ -7,7 +7,7 @@ import { createRoot } from 'react-dom/client';
 import { FeatureCollection, Polygon } from 'geojson';
 import UglyCircle from '@/Assets/uglyCircle.svg';
 
-mapboxgl.accessToken = 'pk.eyJ1Ijoid2lsbGlhbTgwMTIiLCJhIjoiY2xwM3dqeGwxMTRtcjJpbWozYnNjMXZrYSJ9.Uwtluj_0DzSgfQ-ObQeAIw'; // Replace with your Mapbox access token
+mapboxgl.accessToken = process.env.NEXT_PUBLIC_TOKEN || ''; // Replace with your Mapbox access token
 export type MapData = {
   tags: Array<{ latitude: number; longitude: number; tag: string; votes: number }>;
   areas?: Array<{ latitude: number; longitude: number; tag: string }>;

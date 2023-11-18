@@ -2358,27 +2358,26 @@ export const SanJose_Sample2 = {
   tags: [
     {
       epoch: 1646568541855,
-      latitude: 37.3536691,
-      longitude: -121.9504723,
+      latitude: 37.3513928,
+      longitude: -121.9807812,
       uid: 'n_9386dd4asdf1m1k2fde2f413300_37.338739876572_-121.97333013891',
       votes: 3,
-      tag: '🌶️',
+      tag: `Paik's Noodle / 홍콩반점 산호세`,
     },
     {
       epoch: 1646568541855,
-      latitude: 37.338739876572,
-      longitude: -121.97333013891,
+      latitude: 37.3223627,
+      longitude: -122.0169841,
       uid: 'n_9386dd4a1ba010a9cd04bfde2f413300_37.338739876572_-121.97333013891',
       votes: 1,
-      tag: 'Donuts',
+      tag: 'Red Hot Wok',
     },
+  ],
+  area: [
     {
-      epoch: 1646568505628,
-      latitude: 37.338845827447,
-      longitude: -121.97294117398,
-      uid: 'n_9386dd4a1ba010a9cd04bfde2f413300_37.338845827447_-121.97294117398',
-      votes: 2,
-      tag: 'Donut Heaven',
+      latitude: 37.7576713,
+      longitude: -122.5200009,
+      tag: 'San Fransisco',
     },
   ],
 };
@@ -2389,4 +2388,11 @@ export const SanJose_Sample_Empty = {
   latitude: '37.3382082',
   longitude: '-121.8863286',
   tags: [],
+  area: [
+    {
+      latitude: 37.7576713,
+      longitude: -122.5200009,
+      tag: 'San Fransisco',
+    },
+  ],
 };

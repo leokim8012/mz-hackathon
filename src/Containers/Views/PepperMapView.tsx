@@ -5,8 +5,9 @@ import { FC, useEffect, useRef, useState } from 'react';
 import ReactDOM from 'react-dom';
 import { createRoot } from 'react-dom/client';
 import { FeatureCollection, Polygon } from 'geojson';
+import { MapData } from './MapView';
 
-mapboxgl.accessToken = 'pk.eyJ1Ijoid2lsbGlhbTgwMTIiLCJhIjoiY2xwM3dqeGwxMTRtcjJpbWozYnNjMXZrYSJ9.Uwtluj_0DzSgfQ-ObQeAIw'; // Replace with your Mapbox access token
+mapboxgl.accessToken = process.env.NEXT_PUBLIC_TOKEN || '';
 export type PepperMapData = {
   tags: Array<{ latitude: number; longitude: number; tag: string; votes: number }>;
 };
@@ -41,25 +42,15 @@ const PepperMapView: FC<PepperMapViewProps> = ({ data }) => {
         .map((tag) => {
           const markerDiv = document.createElement('div');
           const root = createRoot(markerDiv); // Use createRoot here
-          root.render(<MapText key={tag.tag} text={tag.tag} votes={tag.votes} randomRotation={true} />);
+
+          root.render(<MapText size={8} key={tag.tag} text={'🌶️'.repeat(tag.votes)} votes={tag.votes} randomRotation={true} />);
           return new mapboxgl.Marker(markerDiv).setLngLat([tag.longitude, tag.latitude]).addTo(map);
         });
     };
 
     const calculateVoteThreshold = (zoomLevel: number) => {
       // Define the logic to determine the vote threshold based on zoom level
-
-      if (zoomLevel > 12.5) {
-        return 0;
-      } else if (zoomLevel > 12) {
-        return 5;
-      } else if (zoomLevel > 11.5) {
-        return 10;
-      } else if (zoomLevel > 11) {
-        return 15;
-      } else {
-        return 30;
-      }
+      return 0;
     };
 
     map.on('zoom', () => addMarkers(map.getZoom()));

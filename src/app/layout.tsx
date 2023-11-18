@@ -8,10 +8,10 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   icons: '/favicon.png',
-  title: 'MZHackathon - Description',
+  title: 'MZHackathon',
   description: 'Description',
   openGraph: {
-    title: 'MZHackathon - Description',
+    title: 'MZHackathon',
     description: 'Description ',
     images: '/assets/images/og.png',
     url: `${process.env.NEXT_PUBLIC_DOMAIN}`,
